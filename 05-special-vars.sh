@@ -23,5 +23,5 @@ echo value of d is : $d
 
 echo "Printing the vairables that we have passed in the script $*"
 echo "Printing the vairables that we have passed in the script $@"
-echo "Printing the vairables that we have passed in the script$# 
+echo "Printing the number vairables that we have passed in the script$# 
 echo $$ 
