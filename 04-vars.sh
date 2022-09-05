@@ -6,6 +6,7 @@ a=10
 b=abc 
 # abc is a string  
 
+
 #### No Datatypes in bash scriptng. Everything is a string by default.
 
 echo value of a is : $a 
@@ -13,3 +14,6 @@ echo ${a}
 echo "${b}"
 
 echo value of d is : $d 
+
+# rm -rf  /data/${DIR}  
+# rm -rf /data/
