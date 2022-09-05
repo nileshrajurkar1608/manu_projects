@@ -15,5 +15,9 @@ stat() {
     echo "Stat Function is completed bye"
 } 
 
+# calling a function 
+stat 
 
 stat 
+
+slee
