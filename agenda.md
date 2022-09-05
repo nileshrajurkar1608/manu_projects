@@ -63,32 +63,6 @@ Four types of commands in total :
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Colors are of 2 types `FOREGROUND` & `BACKGROUND` Color.
 
 ```
