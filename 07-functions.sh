@@ -10,5 +10,5 @@
 
 
 stat() {
-    echo 
+    echo "Load Average on the system from "
 }
