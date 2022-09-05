@@ -10,4 +10,5 @@ echo -e "\e[43;37m DevOps has a very great future \e[0m"
 
 
 - nane: playbookname 
-  
+  hosts: all 
+asdfasdf 
