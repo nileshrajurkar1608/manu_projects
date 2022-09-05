@@ -20,3 +20,4 @@ stat
 sleep 5
 stat 
 sleep 5
+stat 
