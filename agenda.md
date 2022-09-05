@@ -57,6 +57,38 @@ Four types of commands in total :
 4. Functions  
 ```
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Colors are of 2 types `FOREGROUND` & `BACKGROUND` Color.
 
 ```
