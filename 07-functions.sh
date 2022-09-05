@@ -20,4 +20,4 @@ stat
 
 stat 
 
-slee
+sleep 5
