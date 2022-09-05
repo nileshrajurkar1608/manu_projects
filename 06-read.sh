@@ -1,3 +1,4 @@
 #!/bin/bash 
 
-read 
+read -p "Enter your name: " name 
+echi 
