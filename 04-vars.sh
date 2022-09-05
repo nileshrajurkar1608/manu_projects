@@ -8,6 +8,8 @@ b=abc
 
 d=150
 
+DATE_COMMAND=
+
 #### No Datatypes in bash scriptng. Everything is a string by default.
 
 echo value of a is : $a 
