@@ -12,4 +12,5 @@
 a=10 
 
 
-echo value a is : $a 
+echo value of a is : $a 
+echo value o
