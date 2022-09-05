@@ -56,13 +56,6 @@ Four types of commands in total :
 3. Shell Builtin Commands ( export is an example of shell build in command)
 4. Functions  
 ```
-
-
-
-
-
-
-
 Colors are of 2 types `FOREGROUND` & `BACKGROUND` Color.
 
 ```
