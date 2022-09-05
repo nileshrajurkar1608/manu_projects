@@ -16,6 +16,6 @@ c=$2
 d=$3 
 echo value of a is : $a 
 echo value of b is : $b 
-
+echo value of c is : $c 
 # sh scriptname.sh 100 200 300 
 # sh scriptname.sh  $1  $2  $3
