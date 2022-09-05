@@ -16,3 +16,5 @@ b=$1
 
 echo value of a is : $a 
 echo value of b is : $b 
+
+# sh scriptname.sh 0 
