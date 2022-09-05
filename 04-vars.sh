@@ -23,4 +23,4 @@ echo value of d is : $d
 
 DATE=2022-09-05
 echo "Good Morning, Todays date is $DATE_COMMAND"
-# This is called hardcoding the value.
+# This is how we can fetch the system data
