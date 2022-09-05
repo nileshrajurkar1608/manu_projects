@@ -19,4 +19,5 @@ echo value of d is : $d
 # rm -rf  /data/${DIR}  
 # rm -rf /data/
 
-DATE=2022
+DATE=2022-08-05
+ehco "Good Morning"
