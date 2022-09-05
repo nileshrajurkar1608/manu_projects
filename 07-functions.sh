@@ -21,3 +21,7 @@ sleep 1
 stat 
 sleep 1
 stat 
+
+status() {
+    
+}
