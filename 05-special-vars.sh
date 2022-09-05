@@ -24,4 +24,4 @@ echo value of d is : $d
 echo $* 
 echo $@ 
 echo $# 
-echo 
+echo $$ 
