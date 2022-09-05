@@ -6,6 +6,7 @@ a=10
 b=abc 
 # abc is a string  
 
+d=150
 
 #### No Datatypes in bash scriptng. Everything is a string by default.
 
