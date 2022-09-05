@@ -21,7 +21,7 @@ echo value of d is : $d
 # sh scriptname.sh 100 200 300 
 # sh scriptname.sh  $1  $2  $3
 
-echo $? 
 echo $* 
 echo $@ 
 echo $# 
+echo 
