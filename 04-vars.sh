@@ -20,4 +20,4 @@ echo value of d is : $d
 # rm -rf /data/
 
 DATE=2022-08-05
-ehco "Good Morning"
+ehco "Good Morning, Todays daye is $DATE"
