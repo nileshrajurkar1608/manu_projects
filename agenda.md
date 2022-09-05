@@ -98,6 +98,9 @@ In Linux, exit codes range from 0 to 255.
 0      : Exit Code means, command completed successfully
 1-255  : Either partially completed or failed 
 
+
+
+
 ```
 ### Conditions 
 
