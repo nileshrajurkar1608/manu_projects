@@ -22,6 +22,6 @@ echo value of d is : $d
 # sh scriptname.sh  $1  $2  $3
 
 echo "Printing the vairables that we have passed in the script $*"
-echo "Printing the vairables that we have passed in the script $@ 
-echo $# 
+echo "Printing the vairables that we have passed in the script $@"
+echo "Printing the vairables that we have passed in the script$# 
 echo $$ 
