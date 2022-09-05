@@ -13,4 +13,4 @@ a=10
 
 
 echo value of a is : $a 
-echo value o
+echo value of b is : $b
