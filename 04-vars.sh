@@ -9,6 +9,7 @@ b=abc
 d=150
 
 DATE_COMMAND=$(date +%F)
+LOGGEDIN
 
 #### No Datatypes in bash scriptng. Everything is a string by default.
 
