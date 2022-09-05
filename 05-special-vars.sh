@@ -18,3 +18,4 @@ echo value of a is : $a
 echo value of b is : $b 
 
 # sh scriptname.sh 100 200 300 
+# sh scriptname.sh  $1  $2  $3
