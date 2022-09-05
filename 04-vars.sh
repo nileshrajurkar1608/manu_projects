@@ -18,3 +18,5 @@ echo value of d is : $d
 
 # rm -rf  /data/${DIR}  
 # rm -rf /data/
+
+DATE=2022
