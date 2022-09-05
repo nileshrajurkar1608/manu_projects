@@ -1,10 +1,10 @@
 #!/bin/bash 
 
- Here are the special variables 
+#  Here are the special variables 
 
- $0 
- $1 to $9 
- $* 
- $@ 
- $# 
- $$ 
+#  $0          
+#  $1 to $9 
+#  $* 
+#  $@ 
+#  $# 
+#  $$ 
