@@ -8,7 +8,7 @@ b=abc
 
 d=150
 
-DATE_COMMAND=
+DATE_COMMAND=$(date +%F)
 
 #### No Datatypes in bash scriptng. Everything is a string by default.
 
