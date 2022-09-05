@@ -9,7 +9,7 @@ b=abc
 d=150
 
 DATE_COMMAND=$(date +%F)
-LOGGEDIN
+LOGGEDIN_USERS=$(who | wc -l)
 
 #### No Datatypes in bash scriptng. Everything is a string by default.
 
