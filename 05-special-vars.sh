@@ -21,7 +21,7 @@ echo value of d is : $d
 # sh scriptname.sh 100 200 300 
 # sh scriptname.sh  $1  $2  $3
 
-echo "$* 
+echo "Printing the vairables that we have passed in the script $* 
 echo $@ 
 echo $# 
 echo $$ 
