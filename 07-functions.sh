@@ -8,7 +8,3 @@ sample() {
 
 
 sample 
-
-sample 
-
-sample 
