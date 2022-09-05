@@ -11,7 +11,7 @@
 echo -e "script name that you're running is : \e[32m $0 \e[0m"
 
 a=10 
-b=$1
+b=$1      # $1 
 c=$2 
 d=$3 
 echo value of a is : $a 
