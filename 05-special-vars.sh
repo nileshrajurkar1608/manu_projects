@@ -17,4 +17,4 @@ b=$1
 echo value of a is : $a 
 echo value of b is : $b 
 
-# sh scriptname.sh 0 2 3
+# sh scriptname.sh 100 200 300 
