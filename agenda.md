@@ -101,9 +101,12 @@ In Linux, exit codes range from 0 to 255.
 ```
 
 ### Single and Double Quotes:
+
+```
 What's the difference between single and double quotes ?
 Single quotes will make the special characters to lose their power and can be printer.
 Within Double Quotes, the special characters won't be losing their power and can access the variables
+```
 
 ### Conditions 
 
