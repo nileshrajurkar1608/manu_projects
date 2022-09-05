@@ -17,7 +17,6 @@ stat() {
 
 # calling a function 
 stat 
-
+sleep 5
 stat 
-
 sleep 5
