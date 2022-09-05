@@ -8,7 +8,7 @@
 #  $@          : Prints you all the supplied variables in the script 
 #  $#          : Prints you the number of variables
 #  $$          : Process ID of the script that you're running 
-#  $?          : Gives you the exit code of the previous commands  
+#  $?          : Gives you the exit code of the previous command  
 
 echo -e "script name that you're running is : \e[32m $0 \e[0m"
 
