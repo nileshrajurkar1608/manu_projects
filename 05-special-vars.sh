@@ -10,3 +10,6 @@
 #  $$ 
 
 a=10 
+
+
+echo value a is : $a 
