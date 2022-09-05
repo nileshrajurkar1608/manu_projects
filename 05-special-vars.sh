@@ -8,7 +8,7 @@
 #  $@ 
 #  $# 
 #  $$ 
-echo "script name that you're running is $0"
+echo-e "script name that you're running is $0"
 
 a=10 
 b=$1
