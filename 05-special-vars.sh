@@ -10,7 +10,8 @@
 #  $$ 
 
 a=10 
+b=$1
 
 
 echo value of a is : $a 
-echo value of b is : $b
+echo value of b is : $b 
