@@ -5,7 +5,7 @@
 
 ACTION=$1 
 
-if [ $ACTION = ] ; then 
+if [ $ACTION = "start" ] ; then 
 
     commands 
 fi 
