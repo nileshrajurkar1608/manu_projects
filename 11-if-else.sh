@@ -5,9 +5,10 @@
 
 ACTION=$1 
 
-if [ "$ACTION" = "start" ] ; then 
-    echo "Selected choice is start"
+# Demo On If Else 
+# if [ "$ACTION" = "start" ] ; then 
+#     echo "Selected choice is start"
 
-else 
-    echo "Only valid option is start"
-fi 
+# else 
+#     echo "Only valid option is start"
+# fi 
