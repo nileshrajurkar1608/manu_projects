@@ -33,7 +33,7 @@ if [ "$ACTION" = "start" ] ; then
 fi 
 
 
-# -z wll be
+# -z will be true , if the supplied value is null 
 if [ -z $ACTION ]; then 
     echo "Argument is needed "
 fi 
