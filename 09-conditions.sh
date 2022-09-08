@@ -23,5 +23,5 @@ case $ACTION in
         echo "Restarting XYZ Service"
         ;;
     *)
-        echo -e "\e36m Valid options are start or stop or restart only \e[0m"
+        echo -e "\e[36m Valid options are start or stop or restart only \e[0m"
 esac 
