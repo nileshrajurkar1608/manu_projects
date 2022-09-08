@@ -20,7 +20,8 @@ if [ "$ACTION" = "start" ] ; then
     echo "Starting XYZ Service"
 
 elif ["$ACTION" = "stop"]; then 
-     echo "Stopping XYZ Service"
+     echo "Stopping XYZ Service" 
+
 
 else 
     echo "Only valid option is start"
