@@ -22,7 +22,7 @@ if [ "$ACTION" = "start" ] ; then
     elif [ "$ACTION" = "stop"] ; then 
         echo "Stopping XYZ Service" 
 
-    elif ["$ACTION" = "restart"] ; then 
+    elif [ "$ACTION" = "restart"] ; then 
         echo "Restarting XYZ Service" 
 
     else 
