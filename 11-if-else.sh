@@ -9,6 +9,6 @@ if [ "$ACTION" = "start" ] ; then
     echo "Selected choice is start"
 
 else 
-    echo "Only valid option is start "
+    echo "Only valid option is start"
 
 fi 
