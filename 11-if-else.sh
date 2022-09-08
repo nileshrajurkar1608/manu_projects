@@ -20,7 +20,7 @@ if [ "$ACTION" = "start" ] ; then
     echo "Selected choice is start"
 
 elif ["$ACTION" = "start"]; then 
-
+     echo "Selected choice is start"
 
 else 
     echo "Only valid option is start"
