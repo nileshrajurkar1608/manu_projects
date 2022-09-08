@@ -26,6 +26,6 @@ if [ "$ACTION" = "start" ] ; then
         echo "Restarting XYZ Service" 
 
     else 
-        echo -e "Valid options are \e[32m start or stop or restart only \e[0m"
+        echo -e "Valid options are \e[31m start or stop or restart only \e[0m"
 
 fi 
