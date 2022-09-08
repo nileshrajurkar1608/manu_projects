@@ -21,9 +21,6 @@ if [ "$ACTION" = "start" -o "$ACTION" = "Start" -o "$ACTION" = "START"] ; then
     echo "Starting XYZ Service"
 
     elif [ "$ACTION" = "stop" ] ; then 
-        if [ asdfdsa] ; then 
-        asdfdsa 
-        fi 
         echo "Stopping XYZ Service" 
 
     elif [ "$ACTION" = "restart" ] ; then 
