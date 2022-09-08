@@ -21,6 +21,7 @@ if [ "$ACTION" = "start" ] ; then
 
     elif [ "$ACTION" = "stop" ] ; then 
         echo "Stopping XYZ Service" 
+        exit 1 
 
     elif [ "$ACTION" = "restart" ] ; then 
         echo "Restarting XYZ Service" 
