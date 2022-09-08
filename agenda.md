@@ -178,6 +178,7 @@ Operators on numbers:
     [ 1 -ne 1 ]
 ```
 a=10 
+abc == abc 
 
 Operators on Strings:
     = , == , !=
