@@ -19,13 +19,13 @@ ACTION=$1
 if [ "$ACTION" = "start" ] ; then 
     echo "Starting XYZ Service"
 
-elif ["$ACTION" = "stop"]; then 
-     echo "Stopping XYZ Service" 
+    elif ["$ACTION" = "stop"]; then 
+        echo "Stopping XYZ Service" 
 
-elif ["$ACTION" = "restart"]; then 
-     echo "Restarting XYZ Service" 
+    elif ["$ACTION" = "restart"]; then 
+        echo "Restarting XYZ Service" 
 
-else 
-    echo -e "Valid options are \e[32m start or stop or restart only \e[0m"
+    else 
+        echo -e "Valid options are \e[32m start or stop or restart only \e[0m"
 
 fi 
