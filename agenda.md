@@ -170,7 +170,7 @@ NOTE: If the expression is false, then it will perform the conditions in else
     3. Files
 ```
 
->  >= < 
+>  >= <  <=  !=
 
 Operators on numbers:
 ```
