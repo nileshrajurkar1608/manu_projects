@@ -33,4 +33,6 @@ if [ "$ACTION" = "start" ] ; then
 fi 
 
 
-if [ -z $ACTION ]
+if [ -z $ACTION ]; then 
+
+fi 
