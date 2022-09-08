@@ -35,5 +35,5 @@ fi
 
 # -z will be true , if the supplied value is null 
 if [ -n $ACTION ]; then 
-    echo "Argument is needed "
+    echo "Argument is empty "
 fi 
