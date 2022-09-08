@@ -6,6 +6,6 @@ if [ $ID -eq 0 ]
     yum install httpd -y  
 
 else 
-    ""
+    echo -e ""
 
 fi 
