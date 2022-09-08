@@ -17,7 +17,7 @@ ACTION=$1
 # Demo on Else If 
 
 if [ "$ACTION" = "start" ] ; then 
-    echo Starting XYZ Sert"
+    echo Starting XYZ Service"
 
 elif ["$ACTION" = "start"]; then 
      echo "Selected choice is start"
