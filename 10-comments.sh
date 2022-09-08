@@ -12,5 +12,5 @@ COMMENT
 // sadgfasdfdf 
 // asdfwref
 
-# asdfasdf 
-#
+// 
+/*   */
