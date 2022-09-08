@@ -26,6 +26,6 @@ elif ["$ACTION" = "restart"]; then
      echo "Restarting XYZ Service" 
 
 else 
-    echo "Only valid option is start"
+    echo "Valid options are start or stop or restart only"
 
 fi 
