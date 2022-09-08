@@ -23,6 +23,7 @@ elif ["$ACTION" = "stop"]; then
      echo "Stopping XYZ Service" 
 
 
+
 else 
     echo "Only valid option is start"
 
