@@ -199,7 +199,7 @@ Operators on files:
 
     [ -d xyz ]  -> True if file exists and it is a directory
 
-    ### Explore the file types, There are 7 types on files in Linux.
+### Explore the file types, There are 7 types on files in Linux.
 
 
 COMMENT
