@@ -134,7 +134,7 @@ NOTE: If the expression is false, then it will not perform any thing
         command2
         command3
     else 
-        command
+        commandx
         commandy
     fi 
 
