@@ -34,5 +34,5 @@ fi
 
 
 if [ -z $ACTION ]; then 
-    echo ""
+    echo "Argument is needed "
 fi 
