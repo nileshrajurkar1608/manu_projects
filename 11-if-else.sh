@@ -36,5 +36,6 @@
 ACTION=$1 
 
 if [ -z $ACTION ]; then 
-    echo "Argument is empty "
+    echo "Argument is needed, Either start or stop are valid"
+    exit 1
 fi 
