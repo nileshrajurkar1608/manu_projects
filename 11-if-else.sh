@@ -35,6 +35,6 @@
 
 ACTION=$1 
 
-if [ -n $ACTION ]; then 
+if [ -z $ACTION ]; then 
     echo "Argument is empty "
 fi 
