@@ -6,6 +6,5 @@
 ACTION=$1 
 
 if [ "$ACTION" = "start" ] ; then 
-
-    commands 
+    echo "Selected choice is start"
 fi 
