@@ -19,10 +19,10 @@ ACTION=$1
 if [ "$ACTION" = "start" ] ; then 
     echo "Starting XYZ Service"
 
-    elif [ "$ACTION" = "stop"] ; then 
+    elif [ "$ACTION" = "stop" ] ; then 
         echo "Stopping XYZ Service" 
 
-    elif [ "$ACTION" = "restart"] ; then 
+    elif [ "$ACTION" = "restart" ] ; then 
         echo "Restarting XYZ Service" 
 
     else 
