@@ -16,7 +16,7 @@ ACTION=$1
 
 # Demo on Else If 
 
-if [ "$ACTION" = "start" -o "$ACTION" = "Start" -o "$ACTION" = "start"] ; then 
+if [ "$ACTION" = "start" -o "$ACTION" = "Start" -o "$ACTION" = "START"] ; then 
 
     echo "Starting XYZ Service"
 
