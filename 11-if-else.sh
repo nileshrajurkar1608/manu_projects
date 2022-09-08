@@ -10,5 +10,4 @@ if [ "$ACTION" = "start" ] ; then
 
 else 
     echo "Only valid option is start"
-
 fi 
