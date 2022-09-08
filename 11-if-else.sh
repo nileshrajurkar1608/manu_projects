@@ -5,4 +5,4 @@
 
 ACTION=$1 
 
-if 
+if [expression] ; then 
