@@ -5,7 +5,7 @@
 
 ACTION=$1 
 
-if [expression] ; then 
+if [ $ACTION =] ; then 
 
     commands 
 fi 
