@@ -9,4 +9,8 @@ a=10
 echo $a
 COMMENT
 
-// sadgfasdfdf
+// sadgfasdfdf 
+// asdfwref
+
+# asdfasdf 
+#
