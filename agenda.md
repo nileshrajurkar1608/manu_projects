@@ -177,8 +177,6 @@ Operators on numbers:
     [ 1 -eq 1 ] 
     [ 1 -ne 1 ]
 ```
-a=10 
-abc == def  
 
 Operators on Strings:
     = , == , !=
