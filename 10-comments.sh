@@ -10,6 +10,7 @@ echo $a
 COMMENT
 
 #
+//
 /*
 
 
