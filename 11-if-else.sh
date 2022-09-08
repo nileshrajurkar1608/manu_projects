@@ -33,7 +33,8 @@
 # fi 
 
 
-# -z will be true , if the supplied value is null 
+ACTION=$1 
+
 if [ -n $ACTION ]; then 
     echo "Argument is empty "
 fi 
