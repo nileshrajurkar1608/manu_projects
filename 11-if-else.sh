@@ -19,6 +19,8 @@ ACTION=$1
 if [ "$ACTION" = "start" ] ; then 
     echo "Selected choice is start"
 
+elif []
+
 else 
     echo "Only valid option is start"
 
