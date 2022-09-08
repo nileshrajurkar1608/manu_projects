@@ -12,3 +12,14 @@ ACTION=$1
 # else 
 #     echo "Only valid option is start"
 # fi 
+
+
+# Demo on Else If 
+
+if [ "$ACTION" = "start" ] ; then 
+    echo "Selected choice is start"
+
+else 
+    echo "Only valid option is start"
+
+fi 
