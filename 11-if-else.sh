@@ -1,4 +1,4 @@
 #!/bin/bash 
 
  [ -z "$var" ]
-  [ -n "$var" ]
+[ -n "$var" ]
