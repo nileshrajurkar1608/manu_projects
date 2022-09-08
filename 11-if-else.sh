@@ -14,7 +14,7 @@ ACTION=$1
 # fi 
 
 
-# Demo on Else If 
+# Demo on Else If  & usecase ofn exit codees 
 
 if [ "$ACTION" = "start" ] ; then 
     echo "Starting XYZ Service"
