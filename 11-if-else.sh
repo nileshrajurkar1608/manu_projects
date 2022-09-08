@@ -3,4 +3,4 @@
 #  [ -z "$var" ]
 # [ -n "$var" ]
 
-ACTION= $1 
+ACTION=$1 
