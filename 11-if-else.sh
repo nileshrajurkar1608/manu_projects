@@ -33,6 +33,7 @@ if [ "$ACTION" = "start" ] ; then
 fi 
 
 
+# -z wll be
 if [ -z $ACTION ]; then 
     echo "Argument is needed "
 fi 
