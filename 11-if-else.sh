@@ -18,7 +18,7 @@ ACTION=$1
 
 if [ "$ACTION" = "start" ] ; then 
     echo "Starting XYZ Service"
-    up
+    uptime 
 
     elif [ "$ACTION" = "stop" ] ; then 
         echo "Stopping XYZ Service" 
