@@ -6,6 +6,6 @@ if [ $ID -eq 0 ]
     yum install httpd -y  
 
 else 
-    echo -e ""
+    echo -e "Try executing the script with sudo or a root user \e[0m "
 
 fi 
