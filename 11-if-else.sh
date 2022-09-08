@@ -3,7 +3,7 @@
 #  [ -z "$var" ]
 # [ -n "$var" ]
 
-ACTION=$1 
+# ACTION=$1 
 
 # Demo On If Else 
 # if [ "$ACTION" = "start" ] ; then 
