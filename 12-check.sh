@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-ID=
+ID=$
 
 echo "Executing httpd installtion"
 yum install httpd -y  
