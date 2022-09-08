@@ -19,7 +19,7 @@ ACTION=$1
 if [ "$ACTION" = "start" ] ; then 
     echo "Starting XYZ Service"
 
-elif ["$ACTION" = "start"]; then 
+elif ["$ACTION" = "stop"]; then 
      echo "Stopping XYZ Service"
 
 else 
