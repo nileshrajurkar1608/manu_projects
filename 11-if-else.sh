@@ -2,3 +2,5 @@
 
 #  [ -z "$var" ]
 # [ -n "$var" ]
+
+ACTION= $1 
