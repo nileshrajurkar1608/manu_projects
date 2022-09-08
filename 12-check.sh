@@ -4,3 +4,4 @@ ID=$(id -u)
 if [ $ID -eq 0 ]
 echo "Executing httpd installtion"
 yum install httpd -y  
+f
