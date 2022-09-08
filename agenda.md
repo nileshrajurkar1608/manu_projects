@@ -178,6 +178,7 @@ Operators on numbers:
     [ 1 -eq 1 ] 
     [ 1 -ne 1 ]
 ```
+Rakesh == rakesh
 
 Operators on Strings:
     = , == , !=
