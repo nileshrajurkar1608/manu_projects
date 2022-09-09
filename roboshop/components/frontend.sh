@@ -21,7 +21,7 @@ else
     echo -e "\e[31m Failure. Look for the logs \e[0m"  
 fi 
 
-echo "Downloading the schema"
+echo "Downloading the Code"
 curl -s -L -o /tmp/frontend.zip "https://github.com/stans-robot-project/frontend/archive/main.zip"
 if [ $? -eq 0 ] ; then 
     echo -e "\e[32m Success \e[0m" 
