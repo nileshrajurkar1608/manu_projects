@@ -16,7 +16,7 @@ stat $?
 
 echo -n "Downloading the Code"
 curl -s -L -o /tmp/frontend.zip "https://github.com/stans-robot-project/frontend/archive/main.zip"
-
+stat $?
 
 
 cd /usr/share/nginx/html
