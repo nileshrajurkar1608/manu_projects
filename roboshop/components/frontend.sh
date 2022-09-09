@@ -6,7 +6,8 @@ source components/common.sh
 echo "Installing Nginx: "
 yum install nginx -y   >> /tmp/frontend.log 
 if [ $? -eq 0 ] ; then 
-    echo -e "\e[32m Success \e[0m"
+    echo -e "\e[32m Success \e[0m" 
+
 fi 
 
 
