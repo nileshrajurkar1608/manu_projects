@@ -2,4 +2,4 @@ frontend:
 	bash components/frontend.sh
 
 frontend:
-	bash components/frontend.sh
+	bash catalogue/frontend.sh
