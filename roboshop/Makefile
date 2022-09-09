@@ -5,4 +5,4 @@ catalogue:
 	bash catalogue/catalogue.sh
 
 cart:
-	bash catalogue/catalogue.sh
+	bash catalogue/cart.sh
