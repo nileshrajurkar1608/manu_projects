@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# source components/common.sh
 source components/common.sh
 
 yum install nginx -y   >> /tmp/frontend.log
