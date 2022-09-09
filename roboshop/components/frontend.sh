@@ -2,8 +2,7 @@
 
 ID=$(id -u)
 if [ $ID -eq 0 ]; then 
-    echo "Executing httpd installation"
-     
+    echo "Executing httpd installation" 
 else 
     echo -e "\e[31m Try executing the script with sudo or a root user \e[0m"
     exit 1
