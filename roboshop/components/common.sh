@@ -5,6 +5,7 @@ if [ $ID -ne 0 ]; then
     exit 1
 fi 
 
+# Declaring the stat function
 stat() {
     if [ $? -eq 0 ] ; then 
         echo -e "\e[32m Success \e[0m" 
