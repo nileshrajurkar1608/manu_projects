@@ -11,6 +11,7 @@ systemctl enable nginx
 
 echo -n "Starting Nginx: "
 systemctl start nginx 
+stat 
 
 
 echo -n "Downloading the Code"
