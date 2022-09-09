@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e   
+set -e   # ensure your script will 
 
 # source components/common.sh
 source components/common.sh
