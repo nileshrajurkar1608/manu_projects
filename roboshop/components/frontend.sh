@@ -5,7 +5,7 @@ source components/common.sh
 
 echo "Installing Nginx: "
 yum install nginx -y   >> /tmp/frontend.log 
-if [ $? = 0 ]
+if [ $? -eq 0 ]
 
 
 systemctl enable nginx 
