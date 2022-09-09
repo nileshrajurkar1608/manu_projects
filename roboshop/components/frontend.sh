@@ -4,7 +4,7 @@ set -e   # ensure your script will stop if any of the instruction fails
 source components/common.sh
 
 echo "Installing Nginx"
-yum install nginx -y   >> /tmp/frontend.log
+yum install nginx -y   >> /tmp/frontend.log  
 systemctl enable nginx 
 systemctl start nginx 
 curl -s -L -o /tmp/frontend.zip "https://github.com/stans-robot-project/frontend/archive/main.zip"
