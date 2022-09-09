@@ -21,6 +21,4 @@ mv localhost.conf /etc/nginx/default.d/roboshop.conf
 
 systemctl restart nginx
 
-
-
 # source is a command to import a file and run it locally
