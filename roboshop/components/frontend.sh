@@ -13,7 +13,7 @@ fi
 
 systemctl enable nginx 
 
-echo "Starting Nginx: "
+echo -n "Starting Nginx: "
 systemctl start nginx 
 if [ $? -eq 0 ] ; then 
     echo -e "\e[32m Success \e[0m" 
