@@ -28,5 +28,4 @@ echo -n "Starting Ngnix: "
 systemctl restart nginx
 stat $?
 
-
 # source is a command to import a file and run it locally
