@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "I am installing frontend
+=
 
 Let's download the HTDOCS content and deploy it under the Nginx path.
 
