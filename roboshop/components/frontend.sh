@@ -10,7 +10,7 @@ systemctl enable nginx
 
 echo -n "Starting Nginx: "
 systemctl start nginx 
-stat 0
+stat 123
 
 echo -n "Downloading the Code"
 curl -s -L -o /tmp/frontend.zip "https://github.com/stans-robot-project/frontend/archive/main.zip"
