@@ -11,8 +11,7 @@ systemctl enable nginx
 
 echo -n "Starting Nginx: "
 systemctl start nginx 
--e "\e[31m Failure. Look for the logs \e[0m"  
-fi 
+
 
 echo -n "Downloading the Code"
 curl -s -L -o /tmp/frontend.zip "https://github.com/stans-robot-project/frontend/archive/main.zip"
