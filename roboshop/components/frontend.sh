@@ -3,6 +3,7 @@
 yum install nginx -y 
 systemctl enable nginx 
 
+
 Let's download the HTDOCS content and deploy it under the Nginx path.
 
 ```
