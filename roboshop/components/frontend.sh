@@ -19,4 +19,4 @@ systemctl restart nginx
 
 
 
-# source is a command to 
+# source is a command to import a file and run it locally
