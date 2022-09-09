@@ -2,5 +2,5 @@ frontend:
 	bash components/frontend.sh
 
 catalogue:
-	bash catalogue/frontend.sh
+	bash catalogue/catalogue.sh
 
