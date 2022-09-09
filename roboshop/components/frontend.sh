@@ -29,3 +29,5 @@ systemctl restart nginx
 stat $?
 
 # source is a command to import a file and run it locally
+
+abc.sh 1 2 3
