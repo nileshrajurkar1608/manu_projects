@@ -4,7 +4,7 @@ set -e   # ensure your script will stop if any of the instruction fails
 source components/common.sh
 
 echo "Installing Nginx: "
-yum install ngiasdfdsafnx -y   >> /tmp/frontend.log 
+yum install nginx -y   >> /tmp/frontend.log 
 if [ $? -eq 0 ] ; then 
     echo -e "\e[32m Success \e[0m" 
 else
