@@ -2,7 +2,7 @@
 set -e   # ensure your script will stop if any of the instruction fails
 
 # source components/common.sh
-source /common.sh
+source common.sh
 
 yum install nginx -y   >> /tmp/frontend.log
 systemctl enable nginx 
