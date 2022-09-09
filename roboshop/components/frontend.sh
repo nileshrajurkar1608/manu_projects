@@ -20,6 +20,8 @@ if [ $? -eq 0 ] ; then
 else
     echo -e "\e[31m Failure. Look for the logs \e[0m"  
 fi 
+
+echo "Downloading the schema"
 curl -s -L -o /tmp/frontend.zip "https://github.com/stans-robot-project/frontend/archive/main.zip"
 
 cd /usr/share/nginx/html
