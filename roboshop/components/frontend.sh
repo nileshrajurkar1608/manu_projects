@@ -38,7 +38,7 @@ mv static/* .
 rm -rf frontend-main README.md
 mv localhost.conf /etc/nginx/default.d/roboshop.conf
 
-echo "Starting Ngnix: "
+echo -n "Starting Ngnix: "
 systemctl restart nginx
 if [ $? -eq 0 ] ; then 
     echo -e "\e[32m Success \e[0m" 
