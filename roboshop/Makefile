@@ -4,3 +4,5 @@ frontend:
 catalogue:
 	bash catalogue/catalogue.sh
 
+catalogue:
+	bash catalogue/catalogue.sh
