@@ -31,7 +31,7 @@ stat $?
 
 echo -n "Injecting the $COMPONENT schema: "
 mongo < catalogue.js 
-&& mongo < users.js
+mongo < users.js
 stat $? 
 
 echo "******_______________________$COMPONENT Cofiguration Completed________________________*********
