@@ -3,4 +3,4 @@
 source components/common.sh
 
 
-echo -n ""
+echo -n "Configuring the MongoDB repo"
