@@ -3,4 +3,4 @@
 
 source components/common.sh
 
-COMPONENT=mongodb
+COMPONENT=catalogue
