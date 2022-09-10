@@ -19,3 +19,5 @@ stat $?
 echo -n "Start the $COMPONENT service"
 systemctl enable mongod >> /tmp/${COMPONENT}.log
 systemctl start mongod  
+
+start 
