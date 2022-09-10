@@ -41,6 +41,7 @@ cd $COMPONENT && npm install &>> /tmp/${COMPONENT}.log
 stat $? 
 
 echo -n "Configuring the Systemd file: "
+sed -i e 
 
 
 
