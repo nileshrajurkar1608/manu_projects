@@ -40,7 +40,7 @@ echo -n "Installing $COMPONENT Dependencies:"
 cd $COMPONENT && npm install &>> /tmp/${COMPONENT}.log 
 stat $? 
 
-echo 
+echo -n "Configuring the Systemd "
 
 
 # vim systemd.servce
