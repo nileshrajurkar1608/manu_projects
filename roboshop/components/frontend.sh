@@ -18,7 +18,10 @@ stat $?
 
 cd /usr/share/nginx/html
 rm -rf *
+echo -n "Extracting the zip file:"
 unzip -o /tmp/frontend.zip >> /tmp/frontend.log
+stat $? 
+
 mv frontend-main/* .
 mv static/* .
 rm -rf frontend-main README.md
