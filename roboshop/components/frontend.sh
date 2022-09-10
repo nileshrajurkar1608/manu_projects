@@ -26,6 +26,7 @@ mv frontend-main/* .
 mv static/* .
 echo -n "Performing Cleanup: "
 rm -rf frontend-main README.md
+stat  $?
 mv localhost.conf /etc/nginx/default.d/roboshop.conf
 
 echo -n "Starting Ngnix: "
