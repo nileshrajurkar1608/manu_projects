@@ -20,3 +20,5 @@ echo -n "Start the $COMPONENT service"
 systemctl enable mongod >> /tmp/${COMPONENT}.log
 systemctl start mongod  
 stat $? 
+
+echo -n "Downloading the schema:"
