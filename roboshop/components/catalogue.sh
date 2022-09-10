@@ -8,7 +8,7 @@ COMPONENT=catalogue
 FUSER=roboshop 
 
 echo -n "Configure Yum Remos for nodejs:"
-curl -sL https://rpm.nodesource.com/setup_lts.x | bash
+curl -sL https://rpm.nodesource.com/setup_lts.x | bash >> /tmp/${COMPONENT}.log 
 stat $?
 
 echo -n "Installing nodejs:"
