@@ -30,3 +30,4 @@ cd /tmp
 unzip mongodb.zip
 cd mongodb-main
 
+mongo
