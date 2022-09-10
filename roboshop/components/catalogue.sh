@@ -27,7 +27,7 @@ echo -n "Cleanup of Old ${COMPONENT} content:"
 rm -rf /home/${FUSER}/${COMPONENT}  >> /tmp/${COMPONENT}.log 
 stat $?
 
-echo -n "Extracting ${COMPONENT content: "
+echo -n "Extracting ${COMPONENT} content: "
 cd /home/${FUSER}/ >> /tmp/${COMPONENT}.log 
 unzip -o  /tmp/{COMPONENT}.zip  >> /tmp/${COMPONENT}.log   &&   mv ${COMPONENT}-main ${COMPONENT} >> /tmp/${COMPONENT}.log 
 stat $? 
