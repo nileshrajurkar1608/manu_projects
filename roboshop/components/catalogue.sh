@@ -32,7 +32,7 @@ unzip -o  /tmp/{COMPONENT}.zip  >> /tmp/${COMPONENT}.log   &&   mv ${COMPONENT}-
 stat $? 
 
 echo -n "Installing $COMPONENT Dependencies:"
-
+npm install 
 
 
 
