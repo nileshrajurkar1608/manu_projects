@@ -11,5 +11,6 @@ echo "Installing Monogdb:"
 yum install -y mongodb-org 
 stat $? 
 
+ech
 systemctl enable mongod
 systemctl start mongod
