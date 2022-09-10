@@ -12,7 +12,7 @@ echo -n "Installing ${COMPONENT}:"
 yum install -y mongodb-org 
 stat $? 
 
-echo "Updating the $COMPONENT COn"
+echo "Updating the $COMPONENT COnfig"
 
 systemctl enable mongod >> /tmp/${COMPONENT}.log
 systemctl start mongod  
