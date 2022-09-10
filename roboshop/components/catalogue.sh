@@ -16,7 +16,9 @@ stat $?
 
 echo -n "Adding $FUSER user:"
 useradd roboshop 
-stat
+stat $? 
+
+
 
 
 
