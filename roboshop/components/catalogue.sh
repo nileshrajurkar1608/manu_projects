@@ -10,7 +10,8 @@ curl -sL https://rpm.nodesource.com/setup_lts.x | bash
 stat $?
 
 echo -n "Installing nodejs:"
-yum install nodejs -y >> /tmp/${COMPONENT}
+yum install nodejs -y >> /tmp/${COMPONENT}.log 
+
 
 
 
