@@ -52,6 +52,3 @@ systemctl start ${COMPONENT} &>> /tmp/${COMPONENT}.log
 stat $?
 
 
-{
-
-    
