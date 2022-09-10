@@ -39,6 +39,8 @@ echo -n "Installing $COMPONENT Dependencies:"
 cd $COMPONENT && npm install >> /tmp/${COMPONENT}.log 
 stat $? 
 
+su - 
+
 
 
 
