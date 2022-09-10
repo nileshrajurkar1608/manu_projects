@@ -12,4 +12,4 @@ yum install -y mongodb-org
 stat $? 
 
 systemctl enable mongod
-systemctl enable mongod
+systemctl start mongod
