@@ -29,6 +29,5 @@ echo -n "Extracting the $COMPONENT Schema:"
 cd /tmp && unzip mongodb.zip && cd mongodb-main
 
 
-
 mongo < catalogue.js
 mongo < users.js
