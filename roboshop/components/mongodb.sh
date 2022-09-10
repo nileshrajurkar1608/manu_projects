@@ -30,6 +30,7 @@ cd /tmp && unzip mongodb.zip
 stat $? 
 
 echo -n "Injecting the $COMPONENT schema: "
+cd mongodb-main
 mongo < catalogue.js >> /tmp/${COMPONENT}.log
 mongo < users.js  >> /tmp/${COMPONENT}.log
 stat $? 
