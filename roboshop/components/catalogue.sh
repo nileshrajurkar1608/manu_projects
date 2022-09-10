@@ -24,7 +24,7 @@ curl -s -L -o /tmp/{COMPONENT}.zip "https://github.com/stans-robot-project/${COM
 stat $? 
 
 echo -n "Cleanup of Old $COMPONENT content:"
-rm -rf /home/${FUSER}/
+rm -rf /home/${FUSER}/catalogue 
 
 
 
