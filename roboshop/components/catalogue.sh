@@ -28,7 +28,7 @@ rm -rf /home/${FUSER}/${COMPONENT}  >> /tmp/${COMPONENT}.log
 
 echo -n "Extracting $COMPONENT content: "
 cd /home/${FUSER}/ >> /tmp/${COMPONENT}.log 
-unzip -o  /tmp/{COMPONENT}.zip   &&   mv ${COMPONENT}-main catalogue
+unzip -o  /tmp/{COMPONENT}.zip   &&   mv ${COMPONENT}-main ${COMPONENT}
 
 
 
