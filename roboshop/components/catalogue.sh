@@ -11,6 +11,8 @@ stat $?
 
 echo -n "Installing nodejs:"
 yum install nodejs -y >> /tmp/${COMPONENT}.log 
+stat $? 
+
 
 
 
