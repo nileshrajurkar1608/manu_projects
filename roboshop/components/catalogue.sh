@@ -27,7 +27,7 @@ echo -n "Cleanup of Old $COMPONENT content:"
 rm -rf /home/${FUSER}/${COMPONENT}  >> /tmp/${COMPONENT}.log 
 
 echo -n "Extracting $COMPONENT content: "
-cd /home/${FUSER}
+cd /home/${FUSER}/
 
 
 
