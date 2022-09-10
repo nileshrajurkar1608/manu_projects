@@ -46,7 +46,7 @@ mv /home/${FUSER}/${CATALOGUE}/systemd.service /etc/systemd/system/catalogue.ser
 stat $? 
 
 echo -n "Starting the service"
- systemctl daemon-reload 
+ systemctl daemon-reload  &>> /tmp/${COMPONENT}.log 
 
 
 
