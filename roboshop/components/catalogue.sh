@@ -19,7 +19,8 @@ echo -n "Adding $FUSER user:"
 useradd roboshop 
 stat $? 
 
-echo -n "Downloading $COMPONENT "
+echo -n "Downloading $COMPONENT :"
+
 
 
 
