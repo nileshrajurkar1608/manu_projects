@@ -41,7 +41,8 @@ cd $COMPONENT && npm install &>> /tmp/${COMPONENT}.log
 stat $? 
 
 echo -n "Configuring the Systemd file: "
-sed -i e 's/MONGO_DNSNAME/mongodb.roboshop.internal' /home/${FUSER}/${CATALOGUE}
+sed -i e 's/MONGO_DNSNAME/mongodb.roboshop.internal' /home/${FUSER}/${CATALOGUE}/systemd.service 
+stat 
 
 
 
