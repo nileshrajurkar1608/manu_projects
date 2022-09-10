@@ -22,4 +22,4 @@ systemctl start mongod
 stat $? 
 
 echo -n "Downloading the schema:"
-curl -s -L -o /tmp/mongodb.zip "https://github.com/stans-robot-project/mongodb/archive/main.zip
+curl -s -L -o /tmp/mongodb.zip "https://github.com/stans-robot-project/${COMPONENT}/archive/main.zip
