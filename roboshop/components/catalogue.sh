@@ -33,6 +33,7 @@ stat $?
 
 echo -n "Installing $COMPONENT Dependencies:"
 npm install >> /tmp/${COMPONENT}.log 
+stat $? 
 
 
 
