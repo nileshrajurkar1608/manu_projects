@@ -8,3 +8,4 @@ curl -s -o /etc/yum.repos.d/mongodb.repo https://raw.githubusercontent.com/stans
 stat $? 
 
 echo "Installing Monogdb:"
+sudo 
