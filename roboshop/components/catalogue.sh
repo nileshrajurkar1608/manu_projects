@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set- e 
+set -e 
 
 source components/common.sh
 
@@ -18,6 +18,7 @@ stat $?
 echo -n "Adding $FUSER user:"
 useradd roboshop 
 stat $? 
+
 
 
 
