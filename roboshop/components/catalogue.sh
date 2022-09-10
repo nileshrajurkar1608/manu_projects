@@ -20,3 +20,5 @@ $ cd /home/roboshop/catalogue
 $ npm install
 
 
+vim systemd.servce
+
