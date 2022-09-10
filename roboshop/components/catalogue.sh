@@ -36,7 +36,7 @@ echo -n "Changing the ownership to $FUSER:"
 chown -R $FUSER:$FUSER $COMPONENT/
 
 echo -n "Installing $COMPONENT Dependencies:"
-npm install >> /tmp/${COMPONENT}.log 
+cd npm install >> /tmp/${COMPONENT}.log 
 stat $? 
 
 
