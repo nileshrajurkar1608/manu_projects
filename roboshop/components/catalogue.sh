@@ -5,6 +5,7 @@ source components/common.sh
 
 COMPONENT=catalogue
 
+echo -n "Configure Yum Remos for "
 
 
 
