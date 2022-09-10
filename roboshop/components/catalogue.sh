@@ -5,7 +5,8 @@ source components/common.sh
 
 COMPONENT=catalogue
 
-echo -n "Configure Yum Remos for "
+echo -n "Configure Yum Remos for nodejs:"
+
 
 
 
