@@ -43,6 +43,8 @@ stat $?
 echo -n "Configuring the Systemd file: "
 sed -i e 's/MONGO_DNSNAME/mongodb.roboshop.internal' /home/${FUSER}/${CATALOGUE}/systemd.service 
 mv /home/${FUSER}/${CATALOGUE}/systemd.service /etc/systemd/system/catalogue.service
+stat $? 
+
 
 
 
