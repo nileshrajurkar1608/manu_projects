@@ -30,4 +30,5 @@ cd /tmp
 unzip mongodb.zip
 cd mongodb-main
 
-mongod <
+mongo < catalogue.js
+mongo < catalogue.js
