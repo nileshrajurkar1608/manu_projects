@@ -47,7 +47,7 @@ stat $?
 
 echo -n "Starting the service"
 systemctl daemon-reload  &>> /tmp/${COMPONENT}.log 
-
+systemctl enable catalogue
 
 
 # vim systemd.servce
