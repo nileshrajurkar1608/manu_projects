@@ -31,7 +31,7 @@ cd /home/${FUSER}/ >> /tmp/${COMPONENT}.log
 unzip -o  /tmp/{COMPONENT}.zip  >> /tmp/${COMPONENT}.log   &&   mv ${COMPONENT}-main ${COMPONENT} >> /tmp/${COMPONENT}.log 
 stat $? 
 
-echo -n ""
+echo -n "Installing $COMPONENT Depen"
 
 
 
