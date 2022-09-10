@@ -27,6 +27,8 @@ mv static/* .
 echo -n "Performing Cleanup: "
 rm -rf frontend-main README.md
 stat  $?
+
+echo -n "Configuring the Reverse Proxy: "
 mv localhost.conf /etc/nginx/default.d/roboshop.conf
 
 echo -n "Starting Ngnix: "
