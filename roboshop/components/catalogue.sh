@@ -26,7 +26,8 @@ stat $?
 echo -n "Cleanup of Old $COMPONENT content:"
 rm -rf /home/${FUSER}/${COMPONENT}  >> /tmp/${COMPONENT}.log 
 
-echo -n "Extracting "
+echo -n "Extracting $COMPONENT content: "
+
 
 
 
