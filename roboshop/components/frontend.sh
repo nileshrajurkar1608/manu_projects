@@ -24,7 +24,7 @@ stat $?
 
 mv frontend-main/* .
 mv static/* .
-echo -n "Oerm"
+echo -n "Performing Cleanup: "
 rm -rf frontend-main README.md
 mv localhost.conf /etc/nginx/default.d/roboshop.conf
 
