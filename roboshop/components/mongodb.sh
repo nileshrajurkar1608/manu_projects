@@ -33,4 +33,4 @@ echo -n "Injecting the $COMPONENT schema: "
 mongo < catalogue.js && mongo < users.js
 stat $? 
 
-echo "******_______________________$COMPONENT
+echo "******_______________________$COMPONENT________________________
