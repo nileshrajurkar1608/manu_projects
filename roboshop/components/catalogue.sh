@@ -10,3 +10,4 @@ COMPONENT=catalogue
 # yum install nodejs -y
 
 
+# useradd roboshop
