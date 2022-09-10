@@ -12,5 +12,5 @@ yum install -y mongodb-org
 stat $? 
 
 ech
-systemctl enable mongod 
+systemctl enable mongod >> /tmp/mongodb.log
 systemctl start mongod
