@@ -28,4 +28,5 @@ stat $?
 echo -n "Extracting the $COMPONENT Schema:"
 cd /tmp
 unzip mongodb.zip
-cd mongodb-main 
+cd mongodb-main
+
