@@ -13,7 +13,7 @@ yum install -y mongodb-org
 stat $? 
 
 echo "Updating the $COMPONENT Config:"
-sed -i -e 's/12/hello-centos/' passwd
+sed -i -e 's/127.0.0.1/hello-centos/' passwd
 
 systemctl enable mongod >> /tmp/${COMPONENT}.log
 systemctl start mongod  
