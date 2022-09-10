@@ -45,6 +45,7 @@ sed -i e 's/MONGO_DNSNAME/mongodb.roboshop.internal' /home/${FUSER}/${CATALOGUE}
 mv /home/${FUSER}/${CATALOGUE}/systemd.service /etc/systemd/system/catalogue.service
 stat $? 
 
+echo -n "Starting the service"
 
 
 
