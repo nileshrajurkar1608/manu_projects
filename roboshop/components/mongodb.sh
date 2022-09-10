@@ -31,4 +31,4 @@ stat $?
 
 echo -n "Injecting the $COMPONENT schema: "
 mongo < catalogue.js && mongo < users.js
- stat $? 
+stat $? 
