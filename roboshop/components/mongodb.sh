@@ -14,4 +14,4 @@ stat $?
 
 ech
 systemctl enable mongod >> /tmp/${COMPONENT}.log
-systemctl start mongod
+systemctl start mongod  
