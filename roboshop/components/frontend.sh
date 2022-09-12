@@ -32,7 +32,7 @@ echo -n "Configuring the Reverse Proxy: "
 mv localhost.conf /etc/nginx/default.d/roboshop.conf
 stat $?
 
-echo 
+
 for component in catalogue user ; do 
 sed -i -e "/${component}/s/localhost/${component}.roboshop.internal/"  /etc/nginx/default.d/roboshop.conf
 
