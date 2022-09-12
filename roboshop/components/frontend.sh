@@ -32,7 +32,7 @@ echo -n "Configuring the Reverse Proxy: "
 mv localhost.conf /etc/nginx/default.d/roboshop.conf
 stat $?
 
-for component in catalogue 
+for component in catalogue user 
 
 echo -n "Starting Ngnix: "
 systemctl restart nginx
