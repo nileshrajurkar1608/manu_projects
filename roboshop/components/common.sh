@@ -15,7 +15,7 @@ stat() {
 }
 
 FUSER=roboshop 
-LOGFILE=robot.log 
+LOGFILE=/tmp/robot.log 
 
 USER_SETUP() {
     echo -n "Adding $FUSER user:"
