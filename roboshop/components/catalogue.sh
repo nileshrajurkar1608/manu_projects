@@ -7,7 +7,7 @@ source components/common.sh
 COMPONENT=catalogue
 
 
-NODEJS()
+NODEJS
 
 USER_SETUP
 
