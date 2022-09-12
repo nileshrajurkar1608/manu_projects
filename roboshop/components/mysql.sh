@@ -15,5 +15,6 @@ echo -n "Installing $COMPONENT :"
 yum install mysql-community-server -y $>> ${LOGFILE}
 stat $? 
 
+echo -n "Starting "
 systemctl enable mysqld 
 systemctl start mysqld
