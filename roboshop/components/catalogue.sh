@@ -9,7 +9,7 @@ COMPONENT=catalogue
 # Calling NODEJS function
 NODEJS
 
-DOWNLOAD_AND_EXTRACT()
+()
 
 
 echo -n "Installing $COMPONENT Dependencies:"
