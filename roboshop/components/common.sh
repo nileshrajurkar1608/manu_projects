@@ -18,7 +18,7 @@ FUSER=roboshop
 LOGFILE=robot.log 
 
 USER_SETUP() {
-echo -n "Adding $FUSER user:"
-id ${FUSER} >> /tmp/${COMPONENT}.log  || useradd ${FUSER}   # Creates users only in case if the user account doen's exist
-stat $? 
+    echo -n "Adding $FUSER user:"
+    id ${FUSER} >> /tmp/${COMPONENT}.log  || useradd ${FUSER}   # Creates users only in case if the user account doen's exist
+    stat $? 
 }
