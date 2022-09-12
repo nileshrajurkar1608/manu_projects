@@ -9,7 +9,7 @@ COMPONENT=catalogue
 # Calling NODEJS function
 NODEJS
 
-USER_SETUP
+
 
 echo -n "Downloading ${COMPONENT} :"
 curl -s -L -o /tmp/${COMPONENT}.zip "https://github.com/stans-robot-project/${COMPONENT}/archive/main.zip" >> /tmp/${COMPONENT}.log 
