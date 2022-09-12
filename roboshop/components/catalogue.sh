@@ -10,7 +10,5 @@ COMPONENT=catalogue
 NODEJS
 
 
-CONFIG_SVC 
-
 
 
