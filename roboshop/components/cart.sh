@@ -1,11 +1,10 @@
 #!/bin/bash
 
-
 set -e 
 
 source components/common.sh
 
-COMPONENT=catalogue
+COMPONENT=cart
 FUSER=roboshop 
 
 echo -n "Configure Yum Remos for nodejs:"
