@@ -9,7 +9,6 @@ COMPONENT=catalogue
 # Calling NODEJS function
 NODEJS
 
-()
 
 
 echo -n "Installing $COMPONENT Dependencies:"
