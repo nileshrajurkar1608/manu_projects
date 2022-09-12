@@ -10,7 +10,6 @@ COMPONENT=catalogue
 NODEJS
 
 
-
 echo -n "Configuring the Systemd file: "
 sed -i -e 's/MONGO_DNSNAME/mongodb.roboshop.internal/' /home/${FUSER}/${COMPONENT}/systemd.service 
 mv /home/${FUSER}/${COMPONENT}/systemd.service /etc/systemd/system/${COMPONENT}.service
