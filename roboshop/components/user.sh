@@ -46,5 +46,9 @@ sed -i -e 's/REDIS_ENDPOINT/redis.roboshop.internal/'  -e 's/MONGO_ENDPOINT/mong
 mv /home/${FUSER}/${COMPONENT}/systemd.service /etc/systemd/system/${COMPONENT}.service
 stat $?
 
-Update `REDIS_ENDPOINT` with Redis Server IP
-Update `MONGO_ENDPOINT` with MongoDB Server IP
+
+echo -n "Starting the service"
+systemctl daemon-reload  &>> /tmp/${COMPONENT}.log 
+systemctl enable ${COMPONENT} &>> /tmp/${COMPONENT}.log
+systemctl start ${COMPONENT} &>> /tmp/${COMPONENT}.log
+stat $?
