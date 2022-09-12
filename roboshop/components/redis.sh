@@ -16,6 +16,7 @@ stat $?
 
 echo -n "Whitelisting the redis config : "
 sed -i -e 's/127.0.0.1/0.0.0.0/g' /etc/redis.conf 
+sed -i -e 's/127.0.0.1/0.0.0.0/g' /etc/redis.conf 
 stat $? 
 
 echo -n "Staring $COMPONENT: "
