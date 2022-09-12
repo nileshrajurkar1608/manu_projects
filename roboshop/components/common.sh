@@ -54,6 +54,7 @@ systemctl daemon-reload  &>> /tmp/${COMPONENT}.log
 systemctl enable ${COMPONENT} &>> /tmp/${COMPONENT}.log
 systemctl start ${COMPONENT} &>> /tmp/${COMPONENT}.log
 stat $?
+}
 
 NODEJS() {
     echo -n "Configure Yum Remos for nodejs:"
