@@ -41,4 +41,4 @@ cd $COMPONENT && npm install &>> /tmp/${COMPONENT}.log
 stat $? 
 
 
-echo -n ""
+echo -n "Setup "
