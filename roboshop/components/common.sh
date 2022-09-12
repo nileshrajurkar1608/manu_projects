@@ -14,4 +14,4 @@ stat() {
     fi 
 }
 
-FUSER=roboshop  
+FUSER=roboshop 
