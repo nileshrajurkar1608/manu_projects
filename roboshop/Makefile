@@ -15,3 +15,6 @@ cart:
 
 user:
 	bash components/user.sh
+
+user:
+	bash components/user.sh
