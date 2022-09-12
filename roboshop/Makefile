@@ -14,4 +14,4 @@ cart:
 	bash components/cart.sh
 
 
-basx-asadfasdf
+bash scriptName.sh 
