@@ -35,5 +35,4 @@ NODEJS() {
     
     # Calling User creation function
     USER_SETUP
-
 }
