@@ -15,3 +15,4 @@ stat() {
 }
 
 FUSER=roboshop 
+LOGFILE=
