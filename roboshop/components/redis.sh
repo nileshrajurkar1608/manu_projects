@@ -4,7 +4,7 @@ set -e
 
 source components/common.sh
 
-COMPONENT=catalogue
+COMPONENT=redis
 
 echo -n "Configuring the $COMPONENT repo"
 
