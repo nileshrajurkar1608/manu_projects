@@ -13,3 +13,5 @@ stat() {
         echo -e "\e[31m Failure. Look for the logs \e[0m"  
     fi 
 }
+
+FUSER=roboshop  
