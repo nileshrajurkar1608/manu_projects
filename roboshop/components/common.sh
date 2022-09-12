@@ -75,7 +75,7 @@ NODEJS() {
     cd $COMPONENT && npm install &>> /tmp/${COMPONENT}.log 
     stat $? 
     
-    # Calling 
+    # Calling Config_SVC Function
     CONFIG_SVC
 
 }
