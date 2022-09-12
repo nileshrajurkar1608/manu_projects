@@ -14,4 +14,3 @@ stat $?
 echo -n "Installing $COMPONENT :"
 ```bash
 # yum install mysql-community-server -y
-```
