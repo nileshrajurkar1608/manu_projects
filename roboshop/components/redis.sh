@@ -19,7 +19,7 @@ sed -i -e 's/127.0.0.1/0.0.0.0/g' /etc/redis.conf
 stat $? 
 
 echo -n "Staring $COMPONENT: "
-systemctl enable redis 
+systemctl enable redis &>> /tmp/${COMPONENT}.log
 systemctl start redis 
 stat $? 
 
