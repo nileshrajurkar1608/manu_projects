@@ -4,5 +4,5 @@ set -e
 
 source components/common.sh
 
-COMPONENT=catalogue
+COMPONENT=user
 FUSER=roboshop 
