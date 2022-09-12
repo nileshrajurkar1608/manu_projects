@@ -13,5 +13,5 @@ redis:
 cart:
 	bash components/cart.sh
 
-cart:
-	bash components/cart.sh
+user:
+	bash components/user.sh
