@@ -12,22 +12,24 @@ NODEJS
 
 
 DOWNLOAD_AND_EXTRACT() {
-echo -n "Downloading ${COMPONENT} :"
-curl -s -L -o /tmp/${COMPONENT}.zip "https://github.com/stans-robot-project/${COMPONENT}/archive/main.zip" >> /tmp/${COMPONENT}.log 
-stat $? 
+    echo -n "Downloading ${COMPONENT} :"
+    curl -s -L -o /tmp/${COMPONENT}.zip "https://github.com/stans-robot-project/${COMPONENT}/archive/main.zip" >> /tmp/${COMPONENT}.log 
+    stat $? 
 
-echo -n "Cleanup of Old ${COMPONENT} content:"
-rm -rf /home/${FUSER}/${COMPONENT}  >> /tmp/${COMPONENT}.log 
-stat $?
+    echo -n "Cleanup of Old ${COMPONENT} content:"
+    rm -rf /home/${FUSER}/${COMPONENT}  >> /tmp/${COMPONENT}.log 
+    stat $?
 
-echo -n "Extracting ${COMPONENT} content: "
-cd /home/${FUSER}/ >> /tmp/${COMPONENT}.log 
-unzip -o  /tmp/{COMPONENT}.zip  >> /tmp/${COMPONENT}.log   &&   mv ${COMPONENT}-main ${COMPONENT} >> /tmp/${COMPONENT}.log 
-stat $? 
+    echo -n "Extracting ${COMPONENT} content: "
+    cd /home/${FUSER}/ >> /tmp/${COMPONENT}.log 
+    unzip -o  /tmp/{COMPONENT}.zip  >> /tmp/${COMPONENT}.log   &&   mv ${COMPONENT}-main ${COMPONENT} >> /tmp/${COMPONENT}.log 
+    stat $? 
 
-echo -n "Changing the ownership to ${FUSER}:"
-chown -R $FUSER:$FUSER $COMPONENT/
-stat $?
+    echo -n "Changing the ownership to ${FUSER}:"
+    chown -R $FUSER:$FUSER $COMPONENT/
+    stat $?
+
+} 
 
 echo -n "Installing $COMPONENT Dependencies:"
 cd $COMPONENT && npm install &>> /tmp/${COMPONENT}.log 
