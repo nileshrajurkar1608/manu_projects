@@ -37,7 +37,7 @@ chown -R $FUSER:$FUSER $COMPONENT/
 stat $?
 
 echo -n "Installing $COMPONENT Dependencies:"
-cd $COMPONENT && npm install &>> /tmp/${COMPONENT}.log 
+cd ${COMPONENT && npm install &>> /tmp/${COMPONENT}.log 
 stat $? 
 
 
