@@ -43,6 +43,18 @@ DOWNLOAD_AND_EXTRACT() {
     stat $?
 } 
 
+
+echo -n "Configuring the Systemd file: "
+sed -i -e 's/MONGO_DNSNAME/mongodb.roboshop.internal/' /home/${FUSER}/${COMPONENT}/systemd.service 
+mv /home/${FUSER}/${COMPONENT}/systemd.service /etc/systemd/system/${COMPONENT}.service
+stat $? 
+
+echo -n "Starting the service"
+systemctl daemon-reload  &>> /tmp/${COMPONENT}.log 
+systemctl enable ${COMPONENT} &>> /tmp/${COMPONENT}.log
+systemctl start ${COMPONENT} &>> /tmp/${COMPONENT}.log
+stat $?
+
 NODEJS() {
     echo -n "Configure Yum Remos for nodejs:"
     curl -sL https://rpm.nodesource.com/setup_lts.x | bash >> /tmp/${COMPONENT}.log 
