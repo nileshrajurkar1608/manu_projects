@@ -12,3 +12,6 @@ curl -s -L -o /etc/yum.repos.d/mysql.repo https://raw.githubusercontent.com/stan
 stat $? 
 
 echo -n "Installing $COMPONENT :"
+```bash
+# yum install mysql-community-server -y
+```
