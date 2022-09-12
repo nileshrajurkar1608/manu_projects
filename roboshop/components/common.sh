@@ -22,3 +22,14 @@ USER_SETUP() {
     id ${FUSER} &>> LOGFILE  || useradd ${FUSER}   # Creates users only in case if the user account doen's exist
     stat $? 
 }
+
+
+NODEJS() {
+echo -n "Configure Yum Remos for nodejs:"
+curl -sL https://rpm.nodesource.com/setup_lts.x | bash >> /tmp/${COMPONENT}.log 
+stat $?
+
+echo -n "Installing nodejs:"
+yum install nodejs -y >> /tmp/${COMPONENT}.log 
+stat $? 
+}
