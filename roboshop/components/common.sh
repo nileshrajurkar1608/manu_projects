@@ -54,5 +54,6 @@ NODEJS() {
     
     # Calling User creation function
     USER_SETUP 
-    
+
+    DOWNLOAD_AND_EXTRACT
 }
