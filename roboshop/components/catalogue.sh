@@ -11,7 +11,7 @@ NODEJS
 
 
 
-DOWNLOAD_AND_EXTRACT() {
+DOWNLOAD_AND_EXTRACT()
 
 
 echo -n "Installing $COMPONENT Dependencies:"
