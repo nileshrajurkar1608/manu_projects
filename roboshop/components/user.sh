@@ -42,8 +42,7 @@ stat $?
 
 
 echo -n "Setup Systemd File"
-sed -i -e 's/REDIS_ENDPOINT/redis.roboshop.internal/'  -e 's/MONGO_ENDPOINT/mongodb.roboshop.internal/' /home/roboshop/user/systemd.service
-
+sed -i -e mv
 
 Update `REDIS_ENDPOINT` with Redis Server IP
 Update `MONGO_ENDPOINT` with MongoDB Server IP
