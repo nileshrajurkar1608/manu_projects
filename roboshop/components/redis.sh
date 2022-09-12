@@ -20,7 +20,7 @@ sed -i -e 's/127.0.0.1/0.0.0.0/g' /etc/redis/redis.conf
 stat $? 
 
 echo -n "Staring $COMPONENT: "
-systemctl daemon
+systemctl daemon-reload 
 systemctl enable redis &>> /tmp/${COMPONENT}.log
 systemctl restart redis &>> /tmp/${COMPONENT}.log
 stat $? 
