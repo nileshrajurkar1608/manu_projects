@@ -41,4 +41,4 @@ cd $COMPONENT && npm install &>> /tmp/${COMPONENT}.log
 stat $? 
 
 
-echo -n "Setup "
+echo -n "Setup Systemd File"
