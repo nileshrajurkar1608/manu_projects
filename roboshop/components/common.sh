@@ -15,4 +15,4 @@ stat() {
 }
 
 FUSER=roboshop 
-LOGFILE=
+LOGFILE=robot.log 
