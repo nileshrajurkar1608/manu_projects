@@ -21,5 +21,5 @@ stat $?
 
 echo -n "Staring $COMPONENT: "
 systemctl enable redis &>> /tmp/${COMPONENT}.log
-systemctl start redis &>> /tmp/${COMPONENT}.log
+systemctl restart redis &>> /tmp/${COMPONENT}.log
 stat $? 
