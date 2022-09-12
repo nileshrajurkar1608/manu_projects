@@ -33,7 +33,7 @@ mv localhost.conf /etc/nginx/default.d/roboshop.conf
 stat $?
 
 for component in catalogue user ; do 
-sed -i -e '/${component}/'
+sed -i -e '/${component}/s/'
 
 echo -n "Starting Ngnix: "
 systemctl restart nginx
