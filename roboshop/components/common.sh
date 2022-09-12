@@ -53,5 +53,6 @@ NODEJS() {
     stat $? 
     
     # Calling User creation function
-    USER_SETUP
+    USER_SETUP 
+    
 }
