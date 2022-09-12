@@ -20,7 +20,7 @@ stat $?
 
 echo -n "Staring $COMPONENT: "
 systemctl enable redis &>> /tmp/${COMPONENT}.log
-systemctl start redis 
+systemctl start redis &>> /tmp/${COMPONENT}.log
 stat $? 
 
 # # curl -L https://raw.githubusercontent.com/stans-robot-project/redis/main/redis.repo -o /etc/yum.repos.d/redis.repo
