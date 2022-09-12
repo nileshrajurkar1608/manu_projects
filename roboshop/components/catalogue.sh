@@ -7,13 +7,7 @@ source components/common.sh
 COMPONENT=catalogue
 
 
-echo -n "Configure Yum Remos for nodejs:"
-curl -sL https://rpm.nodesource.com/setup_lts.x | bash >> /tmp/${COMPONENT}.log 
-stat $?
-
-echo -n "Installing nodejs:"
-yum install nodejs -y >> /tmp/${COMPONENT}.log 
-stat $? 
+NODEJS()
 
 USER_SETUP
 
