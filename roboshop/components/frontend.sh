@@ -34,6 +34,7 @@ stat $?
 
 
 for component in catalogue user ; do 
+echo -n ""
 sed -i -e "/${component}/s/localhost/${component}.roboshop.internal/"  /etc/nginx/default.d/roboshop.conf
 
 echo -n "Starting Ngnix: "
