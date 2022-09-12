@@ -4,6 +4,6 @@ set -e
 
 source components/common.sh
 
-COMPONENT=catalogue
+COMPONENT=mysql
 
 curl -s -L -o /etc/yum.repos.d/mysql.repo https://raw.githubusercontent.com/stans-robot-project/mysql/main/mysql.repo
