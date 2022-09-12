@@ -16,5 +16,5 @@ cart:
 user:
 	bash components/user.sh
 
-user:
+mysql:
 	bash components/user.sh
