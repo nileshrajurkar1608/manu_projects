@@ -33,6 +33,7 @@ NODEJS() {
     yum install nodejs -y >> /tmp/${COMPONENT}.log 
     stat $? 
     
+    # Calling User 
     USER_SETUP
 
 }
