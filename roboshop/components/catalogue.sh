@@ -6,7 +6,7 @@ source components/common.sh
 
 COMPONENT=catalogue
 
-# Calling 
+# Calling NODEJS function
 NODEJS
 
 USER_SETUP
