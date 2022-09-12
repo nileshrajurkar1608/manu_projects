@@ -25,11 +25,11 @@ USER_SETUP() {
 
 
 NODEJS() {
-echo -n "Configure Yum Remos for nodejs:"
-curl -sL https://rpm.nodesource.com/setup_lts.x | bash >> /tmp/${COMPONENT}.log 
-stat $?
+    echo -n "Configure Yum Remos for nodejs:"
+    curl -sL https://rpm.nodesource.com/setup_lts.x | bash >> /tmp/${COMPONENT}.log 
+    stat $?
 
-echo -n "Installing nodejs:"
-yum install nodejs -y >> /tmp/${COMPONENT}.log 
-stat $? 
+    echo -n "Installing nodejs:"
+    yum install nodejs -y >> /tmp/${COMPONENT}.log 
+    stat $? 
 }
