@@ -41,7 +41,6 @@ DOWNLOAD_AND_EXTRACT() {
     echo -n "Changing the ownership to ${FUSER}:"
     chown -R $FUSER:$FUSER $COMPONENT/
     stat $?
-
 } 
 
 NODEJS() {
