@@ -13,5 +13,3 @@ redis:
 cart:
 	bash components/cart.sh
 
-xyz:
-	bash scriptName.sh 
