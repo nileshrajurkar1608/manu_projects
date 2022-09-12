@@ -58,8 +58,8 @@ NODEJS() {
     # Calling Download and extract function
     DOWNLOAD_AND_EXTRACT
 
-echo -n "Installing $COMPONENT Dependencies:"
-cd $COMPONENT && npm install &>> /tmp/${COMPONENT}.log 
-stat $? 
+    echo -n "Installing $COMPONENT Dependencies:"
+    cd $COMPONENT && npm install &>> /tmp/${COMPONENT}.log 
+    stat $? 
 
 }
