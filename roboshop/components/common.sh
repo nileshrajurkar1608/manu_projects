@@ -17,3 +17,4 @@ stat() {
 FUSER=roboshop 
 LOGFILE=robot.log 
 
+USER_SETUP() 
