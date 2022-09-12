@@ -42,7 +42,7 @@ stat $?
 
 
 echo -n "Setup Systemd File"
-sed -i -e ''
+sed -i -e 's/'
 
 Update `REDIS_ENDPOINT` with Redis Server IP
 Update `MONGO_ENDPOINT` with MongoDB Server IP
