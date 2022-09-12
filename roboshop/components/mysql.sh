@@ -16,5 +16,6 @@ yum install mysql-community-server -y $>> ${LOGFILE}
 stat $? 
 
 echo -n "Starting ${COMPONENT} : "
-systemctl enable mysqld 
-systemctl start mysqld
+systemctl enable mysqld  $>> ${LOGFILE}
+systemctl start mysqld  $>> ${LOGFILE}
+stat $? 
