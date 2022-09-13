@@ -27,5 +27,5 @@ stat $?
 
 
 echo -n "Reset Root Password: "
-echo "ALTER USER 'root'@'localhost' IDENTIFIED BY '${{';"
+echo "ALTER USER 'root'@'localhost' IDENTIFIED BY '${}';"
 
