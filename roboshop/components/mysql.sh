@@ -31,3 +31,4 @@ echo "ALTER USER 'root'@'localhost' IDENTIFIED BY 'RoboShop@1';" | mysql --conne
 stat $? 
 
 echo -n "Uninstall the password validate plugin :"
+echo ""
