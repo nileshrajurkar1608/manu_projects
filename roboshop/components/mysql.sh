@@ -40,3 +40,4 @@ if [ $? -eq 0 ] ; then
 fi 
 
 echo "Downloading the schema:"
+cd /tmp 
