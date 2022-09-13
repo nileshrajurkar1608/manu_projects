@@ -10,3 +10,5 @@ COMPONENT=shipping
 LOGFILE=/tmp/robot.log 
 
 
+yum install maven -y
+
