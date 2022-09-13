@@ -20,4 +20,4 @@ DOWNLOAD_AND_EXTRACT
 # Downloading and extract 
 
 
-cd /home/${}
+cd /home/${FUSER}
