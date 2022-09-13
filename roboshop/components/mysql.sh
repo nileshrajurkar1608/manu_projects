@@ -39,3 +39,4 @@ if [ $? -eq 0 ] ; then
     stat $? 
 fi 
 
+echo "Downloading the schema:"
