@@ -88,11 +88,11 @@ MAVEN() {
 
     DOWNLOAD_AND_EXTRACT
     
-echo -n "Generating the artifact :"
-cd /home/${FUSER}/${COMPONENT}
-mvn clean package   &>> LOGFILE
-mv target/shipping-1.0.jar shipping.jar
-stat $? 
+    echo -n "Generating the artifact :"
+    cd /home/${FUSER}/${COMPONENT}
+    mvn clean package   &>> LOGFILE
+    mv target/shipping-1.0.jar shipping.jar
+    stat $? 
 
 }
 
