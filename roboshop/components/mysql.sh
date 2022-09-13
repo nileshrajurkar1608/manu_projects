@@ -41,4 +41,4 @@ fi
 
 echo "Downloading the schema:"
 cd /tmp 
-curl -s -L -o /tmp/mysql.zip "https://github.com/stans-robot-project/mysql/archive/main.zip"  &>> ${LOGFILE} 
+curl -s -L -o /tmp/mysql.zip "https://github.com/stans-robot-project/mysql/archive/main.zip"  &>> ${LOGFILE} && uni
