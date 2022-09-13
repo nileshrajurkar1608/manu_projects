@@ -19,5 +19,6 @@ USER_SETUP
 DOWNLOAD_AND_EXTRACT
 # Downloading and extract 
 
-
+echo -n "Generating the artifact :"
 cd /home/${FUSER}/${COMPONENT}
+
