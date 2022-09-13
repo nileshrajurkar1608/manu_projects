@@ -25,3 +25,6 @@ echo -n "Fetching the default root password: "
 DEFAULT_ROOT_PASSWORD=$(sudo grep temp /var/log/mysqld.log | head -n 1 | awk -F " " '{print $NF}')
 stat $? 
 
+
+
+if( abc = bed ) {}
