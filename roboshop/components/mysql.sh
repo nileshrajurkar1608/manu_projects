@@ -26,7 +26,7 @@ echo -n "Fetching the default root password: "
 DEFAULT_ROOT_PASSWORD=$(sudo grep temp /var/log/mysqld.log | head -n 1 | awk -F " " '{print $NF}')
 stat $? 
 
-#If the exit code is non-zero then only I o
+#If the exit code is non-zero then only I 
 echo show databases | mysql -uroot -p"{MYSQL_PASSWORD}" &>> ${LOGFILE}
 if [ $? -eq 0 ]; then 
     echo -n "Reset Root Password: "
