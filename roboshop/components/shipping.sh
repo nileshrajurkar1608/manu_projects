@@ -4,7 +4,6 @@ set -e
 
 source components/common.sh
 
-COMPONENT=catalogue
+COMPONENT=shipping
 
-# Calling NODEJS function
-NODEJS
+
