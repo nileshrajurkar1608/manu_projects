@@ -50,4 +50,4 @@ mysql -uroot -pRoboShop@1 <shipping.sql  &>> ${LOGFILE}
 stat $? 
 
 
-echo "************ $Component Instannation Completed ********************"
+echo -e "\n ************ $Component Instannation Completed ********************"
