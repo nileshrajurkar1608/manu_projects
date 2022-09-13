@@ -21,4 +21,6 @@ DOWNLOAD_AND_EXTRACT
 
 echo -n "Generating the artifact :"
 cd /home/${FUSER}/${COMPONENT}
-mvn clean package 
+mvn clean package   &>> LOGFILE
+
+
