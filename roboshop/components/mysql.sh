@@ -28,7 +28,7 @@ stat $?
 
 #If the exit code is non-zero then only I want to execute, if not, I would like to skip 
 echo show databases | mysql -uroot -p"{MYSQL_PASSWORD}" &>> ${LOGFILE}
-if [ $? -eq 0 ]; then 
+if [ $? -ne 0 ]; then 
     echo -n "Reset Root Password: "
     echo "ALTER USER 'root'@'localhost' IDENTIFIED BY 'RoboShop@1';" | mysql --connect-expired-password  -uroot -p"${DEFAULT_ROOT_PASSWORD}" &>> ${LOGFILE}
     stat $? 
