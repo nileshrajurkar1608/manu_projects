@@ -45,3 +45,4 @@ curl -s -L -o /tmp/mysql.zip "https://github.com/stans-robot-project/mysql/archi
 stat $? 
 
 echo -n "Load Schema: "
+cd /tmp/mysql-main
