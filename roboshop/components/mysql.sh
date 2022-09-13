@@ -47,3 +47,4 @@ stat $?
 echo -n "Load Schema: "
 cd /tmp/mysql-main/
 mysql -uroot -pRoboShop@1 <shipping.sql  &>> ${LOGFILE}
+stat $? 
