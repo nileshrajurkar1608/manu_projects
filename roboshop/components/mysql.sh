@@ -26,4 +26,5 @@ DEFAULT_ROOT_PASSWORD=$(sudo grep temp /var/log/mysqld.log | head -n 1 | awk -F 
 stat $? 
 
 
-echo -n "Uninstalling the password validate plugin: "
+echo -n "Reset Root Password: "
+
