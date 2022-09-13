@@ -23,4 +23,4 @@ stat $?
 
 echo -n "Fetching the default root password: "
 gr
-DEFAULT_ROOT_PASSWORD=
+DEFAULT_ROOT_PASSWORD=$(sudo grep temp /var/log/mysqld.log)
