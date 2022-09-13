@@ -34,8 +34,7 @@ if [ $? -ne 0 ]; then
     stat $? 
 fi 
 
-echo show plugins | mysql -uroot -pRoboShop@1 &>> ${LOGFILE} | grep validate_password
-if [ $? -eq 0 ] ; then 
+echo show plugins | mysql -uroot -pRoboShop@1 &>> ${LOGFILE} | grep validate_password &>> ${LOGFILE}
     echo -n "Uninstalling the password validate plugin :"
     echo  "uninstall plugin validate_password;" | mysql -uroot -pRoboShop@1 &>> ${LOGFILE}
     stat $? 
