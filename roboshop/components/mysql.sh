@@ -39,7 +39,7 @@ if [ $? -eq 0 ] ; then
     stat $? 
 fi 
 
-echo "Downloading the schema:"
+echo -n "Downloading the schema:"
 cd /tmp 
 curl -s -L -o /tmp/mysql.zip "https://github.com/stans-robot-project/mysql/archive/main.zip"  &>> ${LOGFILE} && unzip -o /tmp/mysql.zip    &>> ${LOGFILE}
 stat $? 
