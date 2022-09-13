@@ -38,6 +38,5 @@ echo show plugins | mysql -uroot -pRoboShop@1 &>> ${LOGFILE} | grep validate_pas
 if [ $? -eq 0 ] ; then 
     echo -n "Uninstalling the password validate plugin :"
     echo  "uninstall plugin validate_password;"| mysql -uroot -pRoboShop1 
-    mysql --connect-expired-password  -uroot -pRoboShop@1 </tmp/uninstall-plugin.sql   &>> ${LOGFILE} 
     stat $? 
 fi 
