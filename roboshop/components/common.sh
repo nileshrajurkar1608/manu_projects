@@ -80,8 +80,8 @@ NODEJS() {
 
 
 MAVEN() {
-echo -n "Installing Maven: "
-yum install maven -y &>> LOGFILE
-stat $?  
+    echo -n "Installing Maven: "
+    yum install maven -y &>> LOGFILE
+    stat $?  
 }
 
