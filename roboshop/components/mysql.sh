@@ -30,4 +30,4 @@ echo -n "Reset Root Password: "
 echo "ALTER USER 'root'@'localhost' IDENTIFIED BY 'RoboShop@1';" | mysql --connect-expired-password  -uroot -p"${DEFAULT_ROOT_PASSWORD}" &>> ${LOGFILE}
 stat $? 
 
-
+echo 
