@@ -21,5 +21,5 @@ systemctl start mysqld &>> ${LOGFILE}
 stat $? 
 
 
-echo -n "Fetching the default password: "
+echo -n "Fetching the default root password: "
 grep temp /var/log/mysqld.log
