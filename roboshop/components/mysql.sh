@@ -46,7 +46,7 @@ stat $?
 
 echo -n "Injecting the Schema: "
 cd /tmp/mysql-main/
-mysql -uroot -pRoboShop@1 <shipping.sql  &>> ${LOGFILE}
+mysql -u root -pRoboShop@1 <shipping.sql  &>> ${LOGFILE}
 stat $? 
 
 
