@@ -19,3 +19,5 @@ USER_SETUP
 DOWNLOAD_AND_EXTRACT
 # Downloading and extract 
 
+
+cd 
