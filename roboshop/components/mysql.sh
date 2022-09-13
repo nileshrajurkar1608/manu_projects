@@ -27,7 +27,7 @@ DEFAULT_ROOT_PASSWORD=$(sudo grep temp /var/log/mysqld.log | head -n 1 | awk -F 
 stat $? 
 
 #If the exit code is non-zero then only I want to execute, if not, I would like to skip 
-echo -n "Changin"
+echo -n "Changing the root "
 echo show databases | mysql -uroot -pRoboShop@1 &>> ${LOGFILE}
 if [ $? -ne 0 ]; then 
     echo -n "Reset Root Password: "
