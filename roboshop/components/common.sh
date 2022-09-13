@@ -91,7 +91,7 @@ MAVEN() {
     echo -n "Generating the artifact :"
     cd /home/${FUSER}/${COMPONENT}
     mvn clean package   &>> LOGFILE
-    mv target/${COMPONENT}-1.0.jar shipping.jar
+    mv target/${COMPONENT}-1.0.jar ${COMPONENT}.jar
     stat $? 
     
     CONFIG_SVC
