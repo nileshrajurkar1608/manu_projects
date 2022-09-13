@@ -17,7 +17,7 @@ set -e
 
 source components/common.sh
 
-COMPONENT=shipping
+COMPONENT=ratings 
 
 
 MAVEN
