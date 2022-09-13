@@ -25,5 +25,5 @@ mvn clean package   &>> LOGFILE
 mv target/shipping-1.0.jar shipping.jar
 stat $? 
 
-#Calling t
+#Calling the svc setup 
 CONFIG_SVC
