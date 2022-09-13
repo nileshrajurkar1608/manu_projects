@@ -11,4 +11,5 @@ LOGFILE=/tmp/robot.log
 
 echo -n "Installing Maven: "
 yum install maven -y &>> LOGFILE
+stat $? 
 
