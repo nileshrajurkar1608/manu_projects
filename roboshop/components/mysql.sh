@@ -27,5 +27,3 @@ stat $?
 
 
 echo -n "Uninstalling the password validate plugin: "
-echo 'uninstall plugin validate_password;' > /tmp/password-validate.sql 
-mysql --connect-expired-password -uroot -pRoboShop1 < /tmp/password-validate.sql
