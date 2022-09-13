@@ -27,3 +27,4 @@ stat $?
 
 
 echo -n "Uninstalling the password validate plugin: "
+echo 'uninstall plugin validate_password;'
