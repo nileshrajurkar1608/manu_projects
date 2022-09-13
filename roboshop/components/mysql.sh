@@ -26,7 +26,7 @@ DEFAULT_ROOT_PASSWORD=$(sudo grep temp /var/log/mysqld.log | head -n 1 | awk -F 
 stat $? 
 
 echo show databases; | mysql -uroot -pRoboShop@1 &>> ${LOGFILE}
-if [ $? -eq 0 ]
+if [ $? -eq 0 ]; then 
 echo -n "Reset Root Password: "
 echo "ALTER USER 'root'@'localhost' IDENTIFIED BY 'RoboShop@1';" | mysql --connect-expired-password  -uroot -p"${DEFAULT_ROOT_PASSWORD}" &>> ${LOGFILE}
 stat $? 
