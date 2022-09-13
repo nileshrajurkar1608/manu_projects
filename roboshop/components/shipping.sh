@@ -13,4 +13,6 @@ echo -n "Installing Maven: "
 yum install maven -y &>> LOGFILE
 stat $? 
 
+# Created User 
 USER_SETUP 
+
