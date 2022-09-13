@@ -27,4 +27,5 @@ stat $?
 
 
 echo -n "Reset Root Password: "
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'MyN3wP4ssw0rd';
 
