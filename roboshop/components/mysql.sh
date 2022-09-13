@@ -21,4 +21,5 @@ systemctl start mysqld &>> ${LOGFILE}
 stat $? 
 
 
-echo -n "Changing the def"
+echo -n "Changing the default password: "
+grep temp /var/log/mysqld.log
