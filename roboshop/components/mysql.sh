@@ -27,5 +27,5 @@ stat $?
 
 
 echo -n "Reset Root Password: "
-echo "ALTER USER 'root'@'localhost' IDENTIFIED BY '${DEFAULT_ROOT_PASSWORD}';"
+echo "ALTER USER 'root'@'localhost' IDENTIFIED BY '${DEFAULT_ROOT_PASSWORD}';" | mysql --connect-expired-password  
 
