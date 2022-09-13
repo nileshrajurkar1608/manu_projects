@@ -79,3 +79,5 @@ NODEJS() {
 }
 
 
+MAVEN()
+
