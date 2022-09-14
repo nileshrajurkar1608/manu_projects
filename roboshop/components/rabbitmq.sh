@@ -21,7 +21,7 @@ systemctl enable rabbitmq-server &>> ${LOGFILE}
 systemctl start rabbitmq-server &>> ${LOGFILE} 
 stat $? 
 
-rabbitmqctl 
+rabbitmqctl list_users
 echo -n "Creating $COMPONENT Application user: "
 rabbitmqctl add_user roboshop roboshop123 &>> ${LOGFILE} 
 stat $? 
