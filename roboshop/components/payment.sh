@@ -4,7 +4,7 @@ set -e
 
 source components/common.sh
 
-COMPONENT=catalogue
+COMPONENT=payment
 
 # Calling PYTHON function
 PYTHON
