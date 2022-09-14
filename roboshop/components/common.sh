@@ -106,7 +106,6 @@ MAVEN() {
 
 
 PYTHON() {
-
     echo -n "Installing Pyhton:"
     yum install python36 gcc python3-devel -y &>> ${LOGFILE} 
     stat $? 
