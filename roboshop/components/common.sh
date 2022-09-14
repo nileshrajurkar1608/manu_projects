@@ -110,7 +110,6 @@ PYTHON() {
     yum install python36 gcc python3-devel -y &>> ${LOGFILE} 
     stat $? 
 
-
     USER_SETUP
 
     DOWNLOAD_AND_EXTRACT
