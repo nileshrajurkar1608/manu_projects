@@ -17,7 +17,6 @@ USER_SETUP
 
 DOWNLOAD_AND_EXTRACT
 
-
 cd /home/${FUSER}/${COMPONENT}/
 pip3 install -r requirements.txt   &>> ${LOGFILE} 
 stat $? 
