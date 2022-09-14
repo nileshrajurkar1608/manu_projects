@@ -128,5 +128,4 @@ PYTHON() {
     stat $? 
 
     CONFIG_SVC
-
 }
