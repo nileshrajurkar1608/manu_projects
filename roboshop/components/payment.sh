@@ -26,4 +26,4 @@ GROUP_ID=$(id -u roboshop)
 
 echo -n "Updating the $COMPONENT.ini file"
 
-sed -i -e "/^uid/ c uid=${USER_ID}" -e "/^gid/ c gid=${GROUPID}" payment.ini
+sed -i -e "/^uid/ c uid=${USER_ID}" -e "/^gid/ c gid=${GROU_ID}" payment.ini
