@@ -22,7 +22,7 @@ mysql:
 shipping:
 	bash components/shipping.sh
 
-shipping:
+rabbitmq:
 	bash components/shipping.sh
 
 shipping:
