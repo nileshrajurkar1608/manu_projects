@@ -23,7 +23,7 @@ shipping:
 	bash components/shipping.sh
 
 rabbitmq:
-	bash components/shipping.sh
+	bash components/rabbitmq.sh
 
 shipping:
 	bash components/shipping.sh
