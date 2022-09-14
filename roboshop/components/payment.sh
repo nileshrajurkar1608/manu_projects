@@ -29,3 +29,9 @@ sed -i -e "/^uid/ c uid=${USER_ID}" -e "/^gid/ c gid=${GROUP_ID}" payment.ini
 stat $? 
 
 CONFIG_SVC
+
+
+
+echo -n "Installing Pyhton:"
+yum install python36 gcc python3-devel -y &>> ${LOGFILE} 
+stat $? 
