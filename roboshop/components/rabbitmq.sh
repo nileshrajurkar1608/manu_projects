@@ -18,3 +18,4 @@ stat $?
 
 echo -n "Starting $COMPONENT :"
 systemctl enable rabbitmq-server ${LOGFILE} 
+systemctl enable rabbitmq-server ${LOGFILE} 
