@@ -12,3 +12,4 @@ echo -n "Configuring the Yum Repo for $COMPONENT:"
 curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/script.rpm.sh | sudo bash
 stat $? 
 
+echo -n "Installing RabbitMQ"
