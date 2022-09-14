@@ -26,6 +26,6 @@ echo -n "Creating $COMPONENT Application user: "
 rabbitmqctl add_user roboshop roboshop123
 stat $? 
 
-echo -n "Configuring the $COMPONENET"
+echo -n "Configuring the $COMPONENT $FUSER permissions"
 rabbitmqctl set_user_tags roboshop administrator
 rabbitmqctl set_permissions -p / roboshop ".*" ".*" ".*"
