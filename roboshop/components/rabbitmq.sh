@@ -22,7 +22,7 @@ systemctl start rabbitmq-server &>> ${LOGFILE}
 stat $? 
 
 rabbitmqctl list_users | grep roboshop  &>> ${LOGFILE} 
-if [ $? -eq 
+if [ $? -eq 0 ]; then 
 echo -n "Creating $COMPONENT Application user:" &>> ${LOGFILE} 
 rabbitmqctl add_user roboshop roboshop123 &>> ${LOGFILE} 
 stat $? 
