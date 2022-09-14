@@ -4,3 +4,4 @@ source components/common.sh
 
 COMPONENT=rabbitmq
 
+echo -n ""
