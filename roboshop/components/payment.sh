@@ -22,4 +22,4 @@ pip3 install -r requirements.txt   &>> ${LOGFILE}
 stat $? 
 
 USER_ID=$(id -u roboshop)
-
+USER_ID=$(id -u roboshop)
