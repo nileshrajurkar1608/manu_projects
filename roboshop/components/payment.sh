@@ -21,5 +21,5 @@ cd /home/${FUSER}/${COMPONENT}/
 pip3 install -r requirements.txt   &>> ${LOGFILE} 
 stat $? 
 
-USER
+USER_ID=
 
