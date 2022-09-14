@@ -22,7 +22,7 @@ systemctl start rabbitmq-server ${LOGFILE}
 stat $? 
 
 
-echo -n "Creating $COMPONENT Application user "
+echo -n "Creating $COMPONENT Application user"
 
 rabbitmqctl add_user roboshop roboshop123
 rabbitmqctl set_user_tags roboshop administrator
