@@ -23,3 +23,5 @@ stat $?
 
 USER_ID=$(id -u roboshop)
 GROUP_ID=$(id -u roboshop)
+
+
