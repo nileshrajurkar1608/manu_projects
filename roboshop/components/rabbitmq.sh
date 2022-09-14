@@ -13,5 +13,5 @@ curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/sc
 stat $? 
 
 echo -n "Installing RabbitMQ: "
-yum install rabbitmq-server -y
+yum install rabbitmq-server -y  &>> ${LOGFILE} 
 stat $? 
