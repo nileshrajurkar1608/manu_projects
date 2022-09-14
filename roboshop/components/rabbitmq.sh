@@ -15,4 +15,3 @@ stat $?
 echo -n "Installing RabbitMQ: "
 ```sql
 # yum install rabbitmq-server -y
-```
