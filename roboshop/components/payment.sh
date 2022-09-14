@@ -8,7 +8,3 @@ COMPONENT=payment
 
 # Calling PYTHON function
 PYTHON
-
-
-
-
