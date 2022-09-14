@@ -26,3 +26,4 @@ GROUP_ID=$(id -u roboshop)
 
 echo -n "Updating the $COMPONENT.ini file"
 
+sed -i -e 
