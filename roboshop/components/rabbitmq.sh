@@ -22,7 +22,7 @@ systemctl start rabbitmq-server &>> ${LOGFILE}
 stat $? 
 
 echo -n "Creating $COMPONENT Application user: "
-rabbitmqctl add_user roboshop roboshop123
+rabbitmqctl add_user roboshop roboshop123 &>> ${LOGFILE} 
 stat $? 
 
 echo -n "Configuring the $COMPONENT $FUSER permissions: "
