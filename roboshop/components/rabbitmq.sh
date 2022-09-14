@@ -26,6 +26,7 @@ if [ $? -eq 0 ]; then
 echo -n "Creating $COMPONENT Application user:" &>> ${LOGFILE} 
 rabbitmqctl add_user roboshop roboshop123 &>> ${LOGFILE} 
 stat $? 
+then 
 
 echo -n "Configuring the $COMPONENT $FUSER permissions: "
 rabbitmqctl set_user_tags roboshop administrator &>> ${LOGFILE}  &&  rabbitmqctl set_permissions -p / roboshop ".*" ".*" ".*"  &>> ${LOGFILE} 
