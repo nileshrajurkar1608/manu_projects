@@ -7,4 +7,4 @@ source components/common.sh
 COMPONENT=catalogue
 
 # Calling PYTHON function
-NODEJS
+PYTHON
