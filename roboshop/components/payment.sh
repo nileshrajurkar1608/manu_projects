@@ -8,3 +8,5 @@ COMPONENT=payment
 
 # Calling PYTHON function
 # PYTHON
+
+echo -n ""
