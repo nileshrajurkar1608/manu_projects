@@ -7,7 +7,7 @@ source components/common.sh
 COMPONENT=payment
 
 # Calling PYTHON function
-# PYTHON
+PYTHON
 
 
 
