@@ -76,6 +76,9 @@ NODEJS() {
     
     # Calling Config_SVC Function
     CONFIG_SVC
+
+    echo -e "\n ************ $Component Installation Completed ******************** \n"
+
 }
 
 
@@ -95,5 +98,8 @@ MAVEN() {
     stat $? 
     
     CONFIG_SVC
+
+    echo -e "\n ************ $Component Installation Completed ******************** \n"
+
 }
 
