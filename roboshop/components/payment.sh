@@ -28,3 +28,4 @@ echo -n "Updating the $COMPONENT.ini file"
 sed -i -e "/^uid/ c uid=${USER_ID}" -e "/^gid/ c gid=${GROUP_ID}" payment.ini
 stat $? 
 
+CONFIG_SVC
