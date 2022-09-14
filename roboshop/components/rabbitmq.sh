@@ -14,3 +14,4 @@ stat $?
 
 echo -n "Installing RabbitMQ: "
 yum install rabbitmq-server -y
+stat $? 
