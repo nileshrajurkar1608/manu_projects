@@ -18,3 +18,5 @@ aws ec2 run-instances --image-id ${AMI_ID} --instance-type t3.micro  --security-
 
 echo  "Spot Instance $COMPONENT is ready"
 echo "Creating Route53 Record . . . ."
+
+aws route53 change-resource-record-sets --hosted-zone-id ZXXXXXXXXXX --change-batch file://sample.json
