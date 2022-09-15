@@ -2,7 +2,9 @@
 
 # AMI_ID="ami-00ff427d936335825"
 
+if 
 
+fi 
 
 COMPONENT=$1
 
