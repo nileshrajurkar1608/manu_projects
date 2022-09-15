@@ -4,7 +4,7 @@
 
 # If1 $ is empty or $1 is not supplied, then I want to mark it as failure.
 if [ -z  "$1" ] ; then 
-    echo -n "\e31m Machine Name Is Missing \e[0m"
+    echo -e "\e31m Machine Name Is Missing \e[0m"
     exit 1
 fi 
 
