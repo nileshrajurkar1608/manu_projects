@@ -25,6 +25,6 @@ sed -e "s/PRIVATEIP/${PRIVATE_IP}/" -e "s/COMPONENT/${COMPONENT}/" r53.json  >/t
 aws route53 change-resource-record-sets --hosted-zone-id Z04602961I29SHWLCRCU3 --change-batch file:///tmp/record.json | jq 
 
 if [ "$1" == "all" ] ; then 
-    for 
+    for component 
 
 fi 
