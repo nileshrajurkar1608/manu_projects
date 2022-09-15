@@ -31,4 +31,5 @@ if [ "$1" == "all" ] ; then
     for component in catalogue cart shipping frontend mongodb payment rabbitmq redis mysql user; do 
         COMPONENT=$component
       #  calling function
+      create-server
 fi 
