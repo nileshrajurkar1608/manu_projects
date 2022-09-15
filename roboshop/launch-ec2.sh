@@ -32,4 +32,5 @@ if [ "$1" == "all" ] ; then
         COMPONENT=$component
       #  calling function
       create-server
+     done 
 fi 
