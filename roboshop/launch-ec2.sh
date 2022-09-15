@@ -24,4 +24,4 @@ aws route53 change-resource-record-sets --hosted-zone-id Z04602961I29SHWLCRCU3 -
 
 
 
-echo abc | def |ghi 
+echo  abc | def |ghi 
