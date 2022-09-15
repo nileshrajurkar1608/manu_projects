@@ -5,4 +5,4 @@ AMI_ID=$(aws ec2 describe-images  --filters "Name=name,Values=DevOps-LabImage-Ce
 echo "The AMI which we are using is $AMI_ID"
 
 
-$ aws ec2 run-instances --image-id ami-xxxxxxxx --count 1 --instance-type t2.micro --key-name MyKeyPair --security-group-ids sg-903004f8
+$ aws ec2 run-instances --image-id  --count 1 --instance-type t2.micro --key-name MyKeyPair --security-group-ids sg-903004f8
