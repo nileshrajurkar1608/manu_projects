@@ -4,7 +4,7 @@
 
 if [] ; then 
     echo -n "\e31m Machine Name Is Missing \e[0m"
-
+    e
 fi 
 
 COMPONENT=$1
