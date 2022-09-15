@@ -33,4 +33,5 @@ if [ "$1" == "all" ] ; then
       #  calling function
       create-server
      done
+
 fi 
