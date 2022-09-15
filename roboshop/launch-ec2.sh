@@ -25,6 +25,8 @@ echo "Creating Route53 Record . . . ."
 sed -e "s/PRIVATEIP/${PRIVATE_IP}/" -e "s/COMPONENT/${COMPONENT}/" r53.json  >/tmp/record.json 
 aws route53 change-resource-record-sets --hosted-zone-id Z04602961I29SHWLCRCU3 --change-batch file:///tmp/record.json | jq 
 
+}
+
 if [ "$1" == "all" ] ; then 
     for component in catalogue cart shipping frontend mongodb payment rabbitmq redis mysql user; do 
         COMPONENT=$component
