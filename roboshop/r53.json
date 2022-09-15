@@ -3,7 +3,7 @@
     "Changes": [{
     "Action": "UPSERT",
                 "ResourceRecordSet": {
-                            "Name": "CO.roboshop.internal",
+                            "Name": "COMPONENT.roboshop.internal",
                             "Type": "A",
                             "TTL": 300,
                          "ResourceRecords": [{ "Value": "4.4.4.4"}]
