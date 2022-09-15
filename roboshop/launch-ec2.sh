@@ -3,7 +3,7 @@
 # AMI_ID="ami-00ff427d936335825"
 
 if [] ; then 
-    echo -n "\e31m Machine Name Is Missing "
+    echo -n "\e31m Machine Name Is Missing \e[0m"
 
 fi 
 
