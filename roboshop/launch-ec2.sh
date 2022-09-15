@@ -21,5 +21,5 @@ echo "Private IP of the created machine is $PRIVATE_IP"
 echo  "Spot Instance $COMPONENT is ready"
 echo "Creating Route53 Record . . . ."
 
-sed -e 's/PRIVATEIP/${PRVATE_IP}/' -e  's/COMPONENT/${COMPONENT}' r53.json  >/tmp/record.json 
+sed -e 's/PRIVATEIP/${PRIVATE_IP}/' -e  's/COMPONENT/${COMPONENT}' r53.json  >/tmp/record.json 
 aws route53 change-resource-record-sets --hosted-zone-id Z04602961I29SHWLCRCU3 --change-batch file://r53.json | jq 
