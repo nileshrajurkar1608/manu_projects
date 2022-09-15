@@ -19,5 +19,5 @@ aws ec2 run-instances --image-id ${AMI_ID} --instance-type t3.micro  --security-
 echo  "Spot Instance $COMPONENT is ready"
 echo "Creating Route53 Record . . . ."
 
-sed -e 's/PRIVATEIP/${}'
+sed -e 's/PRIVATEIP/${IPADDRESS}'
 aws route53 change-resource-record-sets --hosted-zone-id Z04602961I29SHWLCRCU3 --change-batch file://r53.json | jq 
