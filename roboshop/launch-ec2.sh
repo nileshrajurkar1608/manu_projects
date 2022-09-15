@@ -3,7 +3,7 @@
 # AMI_ID="ami-00ff427d936335825"
 
 if [] ; then 
-    echo -n "\e31m Input Machine Name"
+    echo -n "\e31m Machine Name"
 
 fi 
 
